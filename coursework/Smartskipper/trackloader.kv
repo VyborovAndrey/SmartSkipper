@@ -1,0 +1,20 @@
+<TrackLoader>:
+    id: trackloader
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserListView:
+            id: filechooser
+			path: './'
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: trackloader.cancel()
+
+            Button:
+                text: "Load"
+                on_release: trackloader.load(filechooser.path, filechooser.selection), trackloader.cancel()

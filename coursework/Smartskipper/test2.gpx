@@ -1,0 +1,2758 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<gpx version="1.0" creator="GpsarPro 5.30" xmlns="http://www.topografix.com/GPX/1/0" xmlns:gpsarPro="http://www.gpsactionreplay.com/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<trk>
+<name>08.53_Gozo</name>
+<trkseg>
+<trkpt lat="47.2776356" lon="-2.3899151"><ele>51.91</ele><time>2020-08-28T15:47:49Z</time>
+<speed>13.13</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2775171" lon="-2.3899039"><ele>52.04</ele><time>2020-08-28T15:47:50Z</time>
+<speed>13.09</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2773992" lon="-2.3898954"><ele>52.02</ele><time>2020-08-28T15:47:51Z</time>
+<speed>13.04</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.277281" lon="-2.3898917"><ele>52.28</ele><time>2020-08-28T15:47:52Z</time>
+<speed>13.06</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2771627" lon="-2.3898867"><ele>52.22</ele><time>2020-08-28T15:47:53Z</time>
+<speed>13.15</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2770429" lon="-2.3898821"><ele>52.25</ele><time>2020-08-28T15:47:54Z</time>
+<speed>13.34</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2769212" lon="-2.389876"><ele>52.33</ele><time>2020-08-28T15:47:55Z</time>
+<speed>13.59</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2767981" lon="-2.3898649"><ele>52.48</ele><time>2020-08-28T15:47:56Z</time>
+<speed>13.72</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2766726" lon="-2.3898549"><ele>52.42</ele><time>2020-08-28T15:47:57Z</time>
+<speed>14.06</speed>
+<hdop>0.8</hdop>
+<sat>9</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2765446" lon="-2.3898481"><ele>52.42</ele><time>2020-08-28T15:47:58Z</time>
+<speed>14.25</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2764156" lon="-2.389841"><ele>52.47</ele><time>2020-08-28T15:47:59Z</time>
+<speed>14.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2762866" lon="-2.3898263"><ele>52.54</ele><time>2020-08-28T15:48:00Z</time>
+<speed>14.36</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2761565" lon="-2.3898076"><ele>52.38</ele><time>2020-08-28T15:48:01Z</time>
+<speed>14.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2760239" lon="-2.3897883"><ele>52.46</ele><time>2020-08-28T15:48:02Z</time>
+<speed>14.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2758901" lon="-2.3897675"><ele>52.56</ele><time>2020-08-28T15:48:03Z</time>
+<speed>14.89</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2757553" lon="-2.3897488"><ele>52.44</ele><time>2020-08-28T15:48:04Z</time>
+<speed>15.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2756195" lon="-2.389736"><ele>52.41</ele><time>2020-08-28T15:48:05Z</time>
+<speed>15.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2754831" lon="-2.3897292"><ele>52.42</ele><time>2020-08-28T15:48:06Z</time>
+<speed>15.17</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2753458" lon="-2.389728"><ele>52.47</ele><time>2020-08-28T15:48:07Z</time>
+<speed>15.21</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2752078" lon="-2.389728"><ele>52.68</ele><time>2020-08-28T15:48:08Z</time>
+<speed>15.3</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2750697" lon="-2.3897218"><ele>52.57</ele><time>2020-08-28T15:48:09Z</time>
+<speed>15.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.274932" lon="-2.3897052"><ele>52.61</ele><time>2020-08-28T15:48:10Z</time>
+<speed>15.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2747954" lon="-2.3896799"><ele>52.59</ele><time>2020-08-28T15:48:11Z</time>
+<speed>15.24</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2746596" lon="-2.3896601"><ele>52.61</ele><time>2020-08-28T15:48:12Z</time>
+<speed>15.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2745252" lon="-2.3896468"><ele>52.63</ele><time>2020-08-28T15:48:13Z</time>
+<speed>14.8</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2743913" lon="-2.3896331"><ele>52.5</ele><time>2020-08-28T15:48:14Z</time>
+<speed>14.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2742554" lon="-2.3896184"><ele>52.59</ele><time>2020-08-28T15:48:15Z</time>
+<speed>15.15</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.274119" lon="-2.3896029"><ele>52.58</ele><time>2020-08-28T15:48:16Z</time>
+<speed>15.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2739828" lon="-2.3895895"><ele>52.47</ele><time>2020-08-28T15:48:17Z</time>
+<speed>15.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2738468" lon="-2.3895804"><ele>52.72</ele><time>2020-08-28T15:48:18Z</time>
+<speed>14.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2737105" lon="-2.3895699"><ele>52.88</ele><time>2020-08-28T15:48:19Z</time>
+<speed>15.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2735741" lon="-2.3895596"><ele>52.92</ele><time>2020-08-28T15:48:20Z</time>
+<speed>15.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2734386" lon="-2.3895498"><ele>53.17</ele><time>2020-08-28T15:48:21Z</time>
+<speed>15.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2733046" lon="-2.3895375"><ele>53.2</ele><time>2020-08-28T15:48:22Z</time>
+<speed>14.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2731723" lon="-2.3895252"><ele>53.44</ele><time>2020-08-28T15:48:23Z</time>
+<speed>14.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2730415" lon="-2.3895132"><ele>53.45</ele><time>2020-08-28T15:48:24Z</time>
+<speed>14.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2729092" lon="-2.3894974"><ele>53.77</ele><time>2020-08-28T15:48:25Z</time>
+<speed>14.85</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2727758" lon="-2.3894734"><ele>53.58</ele><time>2020-08-28T15:48:26Z</time>
+<speed>14.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2726403" lon="-2.3894504"><ele>53.79</ele><time>2020-08-28T15:48:27Z</time>
+<speed>15.29</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2725031" lon="-2.3894291"><ele>53.78</ele><time>2020-08-28T15:48:28Z</time>
+<speed>15.32</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2723671" lon="-2.3894078"><ele>53.65</ele><time>2020-08-28T15:48:29Z</time>
+<speed>15.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2722324" lon="-2.389389"><ele>53.7</ele><time>2020-08-28T15:48:30Z</time>
+<speed>15.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2720997" lon="-2.3893726"><ele>53.84</ele><time>2020-08-28T15:48:31Z</time>
+<speed>14.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2719705" lon="-2.3893538"><ele>53.67</ele><time>2020-08-28T15:48:32Z</time>
+<speed>14.37</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2718425" lon="-2.3893314"><ele>53.7</ele><time>2020-08-28T15:48:33Z</time>
+<speed>14.22</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2717176" lon="-2.389313"><ele>53.93</ele><time>2020-08-28T15:48:34Z</time>
+<speed>13.6</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2715962" lon="-2.3892994"><ele>53.83</ele><time>2020-08-28T15:48:35Z</time>
+<speed>13.5</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2714747" lon="-2.3892834"><ele>53.75</ele><time>2020-08-28T15:48:36Z</time>
+<speed>13.62</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2713531" lon="-2.3892641"><ele>53.95</ele><time>2020-08-28T15:48:37Z</time>
+<speed>13.54</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.271233" lon="-2.3892437"><ele>53.87</ele><time>2020-08-28T15:48:38Z</time>
+<speed>13.34</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2711149" lon="-2.3892281"><ele>53.71</ele><time>2020-08-28T15:48:39Z</time>
+<speed>13.05</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2709996" lon="-2.3892156"><ele>53.78</ele><time>2020-08-28T15:48:40Z</time>
+<speed>12.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2708875" lon="-2.3891998"><ele>53.58</ele><time>2020-08-28T15:48:41Z</time>
+<speed>12.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2707751" lon="-2.3891852"><ele>53.73</ele><time>2020-08-28T15:48:42Z</time>
+<speed>12.62</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2706621" lon="-2.3891725"><ele>53.97</ele><time>2020-08-28T15:48:43Z</time>
+<speed>12.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2705504" lon="-2.3891552"><ele>53.82</ele><time>2020-08-28T15:48:44Z</time>
+<speed>12.43</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.270438" lon="-2.3891338"><ele>54.04</ele><time>2020-08-28T15:48:45Z</time>
+<speed>12.75</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2703241" lon="-2.3891131"><ele>54.05</ele><time>2020-08-28T15:48:46Z</time>
+<speed>12.8</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2702107" lon="-2.3890932"><ele>54.13</ele><time>2020-08-28T15:48:47Z</time>
+<speed>12.69</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2700965" lon="-2.3890749"><ele>54.02</ele><time>2020-08-28T15:48:48Z</time>
+<speed>12.86</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2699807" lon="-2.3890625"><ele>54.01</ele><time>2020-08-28T15:48:49Z</time>
+<speed>12.96</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2698647" lon="-2.3890562"><ele>54.06</ele><time>2020-08-28T15:48:50Z</time>
+<speed>12.86</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.269748" lon="-2.3890491"><ele>54.06</ele><time>2020-08-28T15:48:51Z</time>
+<speed>13.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2696296" lon="-2.3890376"><ele>54.02</ele><time>2020-08-28T15:48:52Z</time>
+<speed>13.27</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2695116" lon="-2.3890211"><ele>53.91</ele><time>2020-08-28T15:48:53Z</time>
+<speed>13.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2693937" lon="-2.3890017"><ele>53.63</ele><time>2020-08-28T15:48:54Z</time>
+<speed>13.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2692753" lon="-2.3889828"><ele>53.56</ele><time>2020-08-28T15:48:55Z</time>
+<speed>13.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.269158" lon="-2.3889623"><ele>53.46</ele><time>2020-08-28T15:48:56Z</time>
+<speed>13.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2690404" lon="-2.3889404"><ele>53.55</ele><time>2020-08-28T15:48:57Z</time>
+<speed>13.27</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2689206" lon="-2.3889182"><ele>53.3</ele><time>2020-08-28T15:48:58Z</time>
+<speed>13.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2687979" lon="-2.3888973"><ele>53.47</ele><time>2020-08-28T15:48:59Z</time>
+<speed>13.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2686753" lon="-2.3888751"><ele>53.3</ele><time>2020-08-28T15:49:00Z</time>
+<speed>13.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2685558" lon="-2.3888544"><ele>53.78</ele><time>2020-08-28T15:49:01Z</time>
+<speed>13.29</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2684397" lon="-2.3888296"><ele>53.55</ele><time>2020-08-28T15:49:02Z</time>
+<speed>12.73</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2683284" lon="-2.3888028"><ele>53.35</ele><time>2020-08-28T15:49:03Z</time>
+<speed>12.36</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2682196" lon="-2.3887725"><ele>53.51</ele><time>2020-08-28T15:49:04Z</time>
+<speed>12.34</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2681121" lon="-2.3887401"><ele>53.26</ele><time>2020-08-28T15:49:05Z</time>
+<speed>12.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2680052" lon="-2.3887169"><ele>52.98</ele><time>2020-08-28T15:49:06Z</time>
+<speed>11.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2678977" lon="-2.3887028"><ele>53.04</ele><time>2020-08-28T15:49:07Z</time>
+<speed>12.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2677884" lon="-2.3886896"><ele>52.66</ele><time>2020-08-28T15:49:08Z</time>
+<speed>12.27</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2676769" lon="-2.3886785"><ele>52.67</ele><time>2020-08-28T15:49:09Z</time>
+<speed>12.62</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2675608" lon="-2.3886675"><ele>52.39</ele><time>2020-08-28T15:49:10Z</time>
+<speed>13.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2674412" lon="-2.3886553"><ele>52.31</ele><time>2020-08-28T15:49:11Z</time>
+<speed>13.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2673196" lon="-2.3886427"><ele>52.48</ele><time>2020-08-28T15:49:12Z</time>
+<speed>13.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2671958" lon="-2.3886272"><ele>52.44</ele><time>2020-08-28T15:49:13Z</time>
+<speed>13.99</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2670706" lon="-2.3886099"><ele>52.46</ele><time>2020-08-28T15:49:14Z</time>
+<speed>13.88</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2669459" lon="-2.388589"><ele>52.28</ele><time>2020-08-28T15:49:15Z</time>
+<speed>14.06</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2668189" lon="-2.388563"><ele>52.65</ele><time>2020-08-28T15:49:16Z</time>
+<speed>14.13</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2666939" lon="-2.3885411"><ele>52.49</ele><time>2020-08-28T15:49:17Z</time>
+<speed>13.89</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2665688" lon="-2.3885198"><ele>52.54</ele><time>2020-08-28T15:49:18Z</time>
+<speed>14.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2664447" lon="-2.3885001"><ele>52.61</ele><time>2020-08-28T15:49:19Z</time>
+<speed>13.65</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2663228" lon="-2.3884857"><ele>52.49</ele><time>2020-08-28T15:49:20Z</time>
+<speed>13.49</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2662016" lon="-2.3884722"><ele>52.24</ele><time>2020-08-28T15:49:21Z</time>
+<speed>13.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2660796" lon="-2.3884579"><ele>52.3</ele><time>2020-08-28T15:49:22Z</time>
+<speed>13.58</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2659569" lon="-2.3884457"><ele>52.33</ele><time>2020-08-28T15:49:23Z</time>
+<speed>13.72</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2658347" lon="-2.3884385"><ele>52.21</ele><time>2020-08-28T15:49:24Z</time>
+<speed>13.49</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2657126" lon="-2.3884363"><ele>52.35</ele><time>2020-08-28T15:49:25Z</time>
+<speed>13.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2655904" lon="-2.3884345"><ele>52.21</ele><time>2020-08-28T15:49:26Z</time>
+<speed>13.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2654685" lon="-2.3884288"><ele>52.14</ele><time>2020-08-28T15:49:27Z</time>
+<speed>13.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2653475" lon="-2.38842"><ele>52.07</ele><time>2020-08-28T15:49:28Z</time>
+<speed>13.39</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2652272" lon="-2.3884095"><ele>52.18</ele><time>2020-08-28T15:49:29Z</time>
+<speed>13.34</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2651082" lon="-2.388399"><ele>52.06</ele><time>2020-08-28T15:49:30Z</time>
+<speed>13.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2649902" lon="-2.3883899"><ele>52.2</ele><time>2020-08-28T15:49:31Z</time>
+<speed>13.04</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2648747" lon="-2.3883776"><ele>51.78</ele><time>2020-08-28T15:49:32Z</time>
+<speed>12.69</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2647599" lon="-2.3883694"><ele>51.57</ele><time>2020-08-28T15:49:33Z</time>
+<speed>12.86</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2646436" lon="-2.3883645"><ele>51.77</ele><time>2020-08-28T15:49:34Z</time>
+<speed>13.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2645243" lon="-2.3883461"><ele>52.08</ele><time>2020-08-28T15:49:35Z</time>
+<speed>13.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2644026" lon="-2.3883196"><ele>51.8</ele><time>2020-08-28T15:49:36Z</time>
+<speed>13.54</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.26428" lon="-2.3882981"><ele>51.74</ele><time>2020-08-28T15:49:37Z</time>
+<speed>13.85</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2641571" lon="-2.388284"><ele>51.84</ele><time>2020-08-28T15:49:38Z</time>
+<speed>13.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2640414" lon="-2.3882904"><ele>52.24</ele><time>2020-08-28T15:49:39Z</time>
+<speed>12.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2639385" lon="-2.3883088"><ele>52.46</ele><time>2020-08-28T15:49:40Z</time>
+<speed>10.92</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2638437" lon="-2.3883139"><ele>52.68</ele><time>2020-08-28T15:49:41Z</time>
+<speed>10.4</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2637478" lon="-2.3882999"><ele>52.84</ele><time>2020-08-28T15:49:42Z</time>
+<speed>11.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2636458" lon="-2.3882713"><ele>52.76</ele><time>2020-08-28T15:49:43Z</time>
+<speed>12.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2635384" lon="-2.3882404"><ele>52.62</ele><time>2020-08-28T15:49:44Z</time>
+<speed>12.31</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.263427" lon="-2.388224"><ele>52.84</ele><time>2020-08-28T15:49:45Z</time>
+<speed>12.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.263313" lon="-2.3882168"><ele>52.75</ele><time>2020-08-28T15:49:46Z</time>
+<speed>12.78</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2631973" lon="-2.3882108"><ele>52.52</ele><time>2020-08-28T15:49:47Z</time>
+<speed>12.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2630779" lon="-2.3882022"><ele>52.54</ele><time>2020-08-28T15:49:48Z</time>
+<speed>13.54</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2629556" lon="-2.3881908"><ele>52.7</ele><time>2020-08-28T15:49:49Z</time>
+<speed>13.64</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.262832" lon="-2.388181"><ele>52.54</ele><time>2020-08-28T15:49:50Z</time>
+<speed>13.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2627088" lon="-2.3881798"><ele>52.4</ele><time>2020-08-28T15:49:51Z</time>
+<speed>13.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2625838" lon="-2.3881761"><ele>52.56</ele><time>2020-08-28T15:49:52Z</time>
+<speed>14.16</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2624558" lon="-2.3881617"><ele>52.44</ele><time>2020-08-28T15:49:53Z</time>
+<speed>14.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2623243" lon="-2.38814"><ele>52.48</ele><time>2020-08-28T15:49:54Z</time>
+<speed>14.94</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2621905" lon="-2.3881133"><ele>52.39</ele><time>2020-08-28T15:49:55Z</time>
+<speed>15.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2620583" lon="-2.3880893"><ele>52.37</ele><time>2020-08-28T15:49:56Z</time>
+<speed>14.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2619269" lon="-2.3880702"><ele>52.28</ele><time>2020-08-28T15:49:57Z</time>
+<speed>14.77</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2617954" lon="-2.3880558"><ele>52.28</ele><time>2020-08-28T15:49:58Z</time>
+<speed>14.5</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2616626" lon="-2.3880448"><ele>52.1</ele><time>2020-08-28T15:49:59Z</time>
+<speed>15.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2615289" lon="-2.3880348"><ele>52.13</ele><time>2020-08-28T15:50:00Z</time>
+<speed>14.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2613989" lon="-2.3880262"><ele>52.05</ele><time>2020-08-28T15:50:01Z</time>
+<speed>14.33</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2612699" lon="-2.3880123"><ele>52.23</ele><time>2020-08-28T15:50:02Z</time>
+<speed>14.21</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2611424" lon="-2.3879903"><ele>52.32</ele><time>2020-08-28T15:50:03Z</time>
+<speed>14.32</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2610172" lon="-2.387965"><ele>51.9</ele><time>2020-08-28T15:50:04Z</time>
+<speed>14.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2608914" lon="-2.3879346"><ele>52.17</ele><time>2020-08-28T15:50:05Z</time>
+<speed>14.11</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2607673" lon="-2.3878961"><ele>52.0</ele><time>2020-08-28T15:50:06Z</time>
+<speed>14.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2606436" lon="-2.3878572"><ele>52.08</ele><time>2020-08-28T15:50:07Z</time>
+<speed>14.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.260519" lon="-2.3878271"><ele>52.19</ele><time>2020-08-28T15:50:08Z</time>
+<speed>14.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2603932" lon="-2.3878015"><ele>52.05</ele><time>2020-08-28T15:50:09Z</time>
+<speed>14.23</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2602655" lon="-2.3877793"><ele>52.11</ele><time>2020-08-28T15:50:10Z</time>
+<speed>14.33</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2601372" lon="-2.3877634"><ele>52.14</ele><time>2020-08-28T15:50:11Z</time>
+<speed>14.27</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2600106" lon="-2.3877419"><ele>52.15</ele><time>2020-08-28T15:50:12Z</time>
+<speed>14.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2598871" lon="-2.3877164"><ele>52.3</ele><time>2020-08-28T15:50:13Z</time>
+<speed>13.6</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2597651" lon="-2.3876928"><ele>52.14</ele><time>2020-08-28T15:50:14Z</time>
+<speed>13.81</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2596418" lon="-2.387666"><ele>51.91</ele><time>2020-08-28T15:50:15Z</time>
+<speed>13.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2595187" lon="-2.3876409"><ele>52.0</ele><time>2020-08-28T15:50:16Z</time>
+<speed>13.65</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2593973" lon="-2.3876202"><ele>51.61</ele><time>2020-08-28T15:50:17Z</time>
+<speed>13.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2592747" lon="-2.3876005"><ele>51.89</ele><time>2020-08-28T15:50:18Z</time>
+<speed>13.86</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2591525" lon="-2.387577"><ele>51.41</ele><time>2020-08-28T15:50:19Z</time>
+<speed>13.41</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2590314" lon="-2.3875479"><ele>51.16</ele><time>2020-08-28T15:50:20Z</time>
+<speed>13.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2589075" lon="-2.387519"><ele>51.29</ele><time>2020-08-28T15:50:21Z</time>
+<speed>14.06</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2587816" lon="-2.3874906"><ele>51.15</ele><time>2020-08-28T15:50:22Z</time>
+<speed>14.2</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2586543" lon="-2.3874568"><ele>51.29</ele><time>2020-08-28T15:50:23Z</time>
+<speed>14.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2585258" lon="-2.3874218"><ele>51.62</ele><time>2020-08-28T15:50:24Z</time>
+<speed>14.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2583984" lon="-2.3873891"><ele>51.44</ele><time>2020-08-28T15:50:25Z</time>
+<speed>14.21</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2582709" lon="-2.3873611"><ele>51.61</ele><time>2020-08-28T15:50:26Z</time>
+<speed>14.45</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2581417" lon="-2.3873341"><ele>51.9</ele><time>2020-08-28T15:50:27Z</time>
+<speed>14.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2580119" lon="-2.3873042"><ele>52.25</ele><time>2020-08-28T15:50:28Z</time>
+<speed>14.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2578821" lon="-2.3872709"><ele>52.23</ele><time>2020-08-28T15:50:29Z</time>
+<speed>14.74</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2577534" lon="-2.3872444"><ele>52.22</ele><time>2020-08-28T15:50:30Z</time>
+<speed>14.14</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2576221" lon="-2.3872245"><ele>52.54</ele><time>2020-08-28T15:50:31Z</time>
+<speed>15.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2574883" lon="-2.3872073"><ele>52.66</ele><time>2020-08-28T15:50:32Z</time>
+<speed>14.82</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2573538" lon="-2.3871886"><ele>52.94</ele><time>2020-08-28T15:50:33Z</time>
+<speed>15.21</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2572208" lon="-2.3871663"><ele>52.91</ele><time>2020-08-28T15:50:34Z</time>
+<speed>14.73</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2570913" lon="-2.3871461"><ele>53.09</ele><time>2020-08-28T15:50:35Z</time>
+<speed>14.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.256966" lon="-2.3871285"><ele>52.91</ele><time>2020-08-28T15:50:36Z</time>
+<speed>13.97</speed>
+<hdop>1.0</hdop>
+<sat>7</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2568413" lon="-2.3871149"><ele>53.01</ele><time>2020-08-28T15:50:37Z</time>
+<speed>13.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2567198" lon="-2.3871016"><ele>53.12</ele><time>2020-08-28T15:50:38Z</time>
+<speed>13.22</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2566042" lon="-2.3870854"><ele>53.31</ele><time>2020-08-28T15:50:39Z</time>
+<speed>12.65</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2564923" lon="-2.3870638"><ele>53.11</ele><time>2020-08-28T15:50:40Z</time>
+<speed>12.55</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2563791" lon="-2.3870405"><ele>53.13</ele><time>2020-08-28T15:50:41Z</time>
+<speed>12.89</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2562638" lon="-2.3870219"><ele>53.34</ele><time>2020-08-28T15:50:42Z</time>
+<speed>12.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2561501" lon="-2.3870003"><ele>53.18</ele><time>2020-08-28T15:50:43Z</time>
+<speed>12.64</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2560362" lon="-2.3869748"><ele>52.78</ele><time>2020-08-28T15:50:44Z</time>
+<speed>13.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.255919" lon="-2.3869541"><ele>52.57</ele><time>2020-08-28T15:50:45Z</time>
+<speed>13.23</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2558014" lon="-2.3869364"><ele>52.71</ele><time>2020-08-28T15:50:46Z</time>
+<speed>13.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2556865" lon="-2.3869127"><ele>52.64</ele><time>2020-08-28T15:50:47Z</time>
+<speed>12.78</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2555763" lon="-2.3868836"><ele>52.23</ele><time>2020-08-28T15:50:48Z</time>
+<speed>12.16</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2554678" lon="-2.3868588"><ele>52.22</ele><time>2020-08-28T15:50:49Z</time>
+<speed>12.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2553582" lon="-2.3868429"><ele>52.32</ele><time>2020-08-28T15:50:50Z</time>
+<speed>12.22</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2552495" lon="-2.3868316"><ele>52.49</ele><time>2020-08-28T15:50:51Z</time>
+<speed>12.06</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2551418" lon="-2.3868192"><ele>52.48</ele><time>2020-08-28T15:50:52Z</time>
+<speed>12.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2550346" lon="-2.3868065"><ele>52.62</ele><time>2020-08-28T15:50:53Z</time>
+<speed>11.93</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2549274" lon="-2.3867911"><ele>52.75</ele><time>2020-08-28T15:50:54Z</time>
+<speed>12.06</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2548191" lon="-2.3867675"><ele>52.52</ele><time>2020-08-28T15:50:55Z</time>
+<speed>12.32</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2547078" lon="-2.3867399"><ele>52.61</ele><time>2020-08-28T15:50:56Z</time>
+<speed>12.8</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.254595" lon="-2.3867112"><ele>52.87</ele><time>2020-08-28T15:50:57Z</time>
+<speed>12.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2544832" lon="-2.3866821"><ele>52.81</ele><time>2020-08-28T15:50:58Z</time>
+<speed>12.55</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2543707" lon="-2.3866528"><ele>52.56</ele><time>2020-08-28T15:50:59Z</time>
+<speed>12.86</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2542559" lon="-2.3866231"><ele>52.56</ele><time>2020-08-28T15:51:00Z</time>
+<speed>13.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2541401" lon="-2.3865986"><ele>52.79</ele><time>2020-08-28T15:51:01Z</time>
+<speed>12.94</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.254025" lon="-2.3865807"><ele>52.81</ele><time>2020-08-28T15:51:02Z</time>
+<speed>12.78</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2539106" lon="-2.3865654"><ele>52.78</ele><time>2020-08-28T15:51:03Z</time>
+<speed>12.75</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2537957" lon="-2.3865457"><ele>53.06</ele><time>2020-08-28T15:51:04Z</time>
+<speed>13.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2536811" lon="-2.386518"><ele>53.44</ele><time>2020-08-28T15:51:05Z</time>
+<speed>12.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2535674" lon="-2.3864878"><ele>53.29</ele><time>2020-08-28T15:51:06Z</time>
+<speed>12.75</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2534519" lon="-2.3864642"><ele>53.01</ele><time>2020-08-28T15:51:07Z</time>
+<speed>13.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.253335" lon="-2.3864468"><ele>53.26</ele><time>2020-08-28T15:51:08Z</time>
+<speed>13.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2532182" lon="-2.3864289"><ele>53.21</ele><time>2020-08-28T15:51:09Z</time>
+<speed>12.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2531005" lon="-2.3864114"><ele>53.26</ele><time>2020-08-28T15:51:10Z</time>
+<speed>13.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2529814" lon="-2.3863954"><ele>53.3</ele><time>2020-08-28T15:51:11Z</time>
+<speed>13.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2528632" lon="-2.3863768"><ele>53.53</ele><time>2020-08-28T15:51:12Z</time>
+<speed>13.17</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2527459" lon="-2.3863533"><ele>53.35</ele><time>2020-08-28T15:51:13Z</time>
+<speed>13.12</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2526284" lon="-2.386331"><ele>53.21</ele><time>2020-08-28T15:51:14Z</time>
+<speed>13.2</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2525088" lon="-2.3863175"><ele>53.27</ele><time>2020-08-28T15:51:15Z</time>
+<speed>13.46</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2523884" lon="-2.3863088"><ele>53.55</ele><time>2020-08-28T15:51:16Z</time>
+<speed>13.32</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2522718" lon="-2.3862969"><ele>53.75</ele><time>2020-08-28T15:51:17Z</time>
+<speed>12.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2521584" lon="-2.3862805"><ele>53.89</ele><time>2020-08-28T15:51:18Z</time>
+<speed>12.71</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2520467" lon="-2.3862651"><ele>53.72</ele><time>2020-08-28T15:51:19Z</time>
+<speed>12.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2519348" lon="-2.3862599"><ele>54.0</ele><time>2020-08-28T15:51:20Z</time>
+<speed>12.66</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2518204" lon="-2.3862597"><ele>53.78</ele><time>2020-08-28T15:51:21Z</time>
+<speed>12.66</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2517053" lon="-2.3862529"><ele>53.72</ele><time>2020-08-28T15:51:22Z</time>
+<speed>12.93</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2515903" lon="-2.3862384"><ele>53.57</ele><time>2020-08-28T15:51:23Z</time>
+<speed>12.74</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2514753" lon="-2.386224"><ele>53.75</ele><time>2020-08-28T15:51:24Z</time>
+<speed>12.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2513585" lon="-2.3862123"><ele>53.54</ele><time>2020-08-28T15:51:25Z</time>
+<speed>13.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2512391" lon="-2.3861985"><ele>53.41</ele><time>2020-08-28T15:51:26Z</time>
+<speed>13.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2511174" lon="-2.3861819"><ele>53.09</ele><time>2020-08-28T15:51:27Z</time>
+<speed>13.62</speed>
+<hdop>1.0</hdop>
+<sat>7</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2509945" lon="-2.3861666"><ele>53.25</ele><time>2020-08-28T15:51:28Z</time>
+<speed>13.81</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2508709" lon="-2.3861462"><ele>53.19</ele><time>2020-08-28T15:51:29Z</time>
+<speed>13.82</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2507474" lon="-2.3861215"><ele>53.38</ele><time>2020-08-28T15:51:30Z</time>
+<speed>13.9</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2506239" lon="-2.3860997"><ele>53.34</ele><time>2020-08-28T15:51:31Z</time>
+<speed>13.72</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2505001" lon="-2.3860883"><ele>53.17</ele><time>2020-08-28T15:51:32Z</time>
+<speed>13.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2503744" lon="-2.3860864"><ele>52.91</ele><time>2020-08-28T15:51:33Z</time>
+<speed>14.06</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2502479" lon="-2.3860863"><ele>53.04</ele><time>2020-08-28T15:51:34Z</time>
+<speed>14.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2501223" lon="-2.3860827"><ele>52.57</ele><time>2020-08-28T15:51:35Z</time>
+<speed>13.85</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2499966" lon="-2.3860751"><ele>52.73</ele><time>2020-08-28T15:51:36Z</time>
+<speed>14.16</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2498684" lon="-2.3860561"><ele>52.95</ele><time>2020-08-28T15:51:37Z</time>
+<speed>14.54</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2497384" lon="-2.3860325"><ele>52.69</ele><time>2020-08-28T15:51:38Z</time>
+<speed>14.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2496079" lon="-2.3860169"><ele>52.65</ele><time>2020-08-28T15:51:39Z</time>
+<speed>14.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2494761" lon="-2.3860099"><ele>52.61</ele><time>2020-08-28T15:51:40Z</time>
+<speed>14.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2493436" lon="-2.3860081"><ele>52.65</ele><time>2020-08-28T15:51:41Z</time>
+<speed>14.74</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2492123" lon="-2.3860075"><ele>52.56</ele><time>2020-08-28T15:51:42Z</time>
+<speed>14.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.249083" lon="-2.3860087"><ele>52.81</ele><time>2020-08-28T15:51:43Z</time>
+<speed>14.3</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2489547" lon="-2.3860044"><ele>52.48</ele><time>2020-08-28T15:51:44Z</time>
+<speed>14.2</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2488274" lon="-2.3859954"><ele>52.42</ele><time>2020-08-28T15:51:45Z</time>
+<speed>14.14</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2487006" lon="-2.3859895"><ele>52.02</ele><time>2020-08-28T15:51:46Z</time>
+<speed>14.04</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2485744" lon="-2.3859892"><ele>52.07</ele><time>2020-08-28T15:51:47Z</time>
+<speed>14.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.248448" lon="-2.3859857"><ele>51.98</ele><time>2020-08-28T15:51:48Z</time>
+<speed>14.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2483218" lon="-2.3859827"><ele>51.96</ele><time>2020-08-28T15:51:49Z</time>
+<speed>13.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2481954" lon="-2.3859859"><ele>52.21</ele><time>2020-08-28T15:51:50Z</time>
+<speed>14.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2480688" lon="-2.3859812"><ele>52.13</ele><time>2020-08-28T15:51:51Z</time>
+<speed>14.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2479426" lon="-2.3859713"><ele>52.02</ele><time>2020-08-28T15:51:52Z</time>
+<speed>14.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2478185" lon="-2.3859679"><ele>52.04</ele><time>2020-08-28T15:51:53Z</time>
+<speed>13.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2476975" lon="-2.3859691"><ele>51.96</ele><time>2020-08-28T15:51:54Z</time>
+<speed>13.34</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2475772" lon="-2.3859669"><ele>52.15</ele><time>2020-08-28T15:51:55Z</time>
+<speed>13.41</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2474551" lon="-2.3859543"><ele>52.07</ele><time>2020-08-28T15:51:56Z</time>
+<speed>13.81</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2473305" lon="-2.3859417"><ele>52.19</ele><time>2020-08-28T15:51:57Z</time>
+<speed>13.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2472048" lon="-2.3859408"><ele>52.35</ele><time>2020-08-28T15:51:58Z</time>
+<speed>13.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2470782" lon="-2.3859466"><ele>52.35</ele><time>2020-08-28T15:51:59Z</time>
+<speed>14.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2469507" lon="-2.3859529"><ele>52.06</ele><time>2020-08-28T15:52:00Z</time>
+<speed>14.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2468246" lon="-2.3859624"><ele>52.16</ele><time>2020-08-28T15:52:01Z</time>
+<speed>13.88</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2466995" lon="-2.3859619"><ele>52.35</ele><time>2020-08-28T15:52:02Z</time>
+<speed>14.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2465739" lon="-2.3859475"><ele>52.37</ele><time>2020-08-28T15:52:03Z</time>
+<speed>14.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2464494" lon="-2.3859251"><ele>52.21</ele><time>2020-08-28T15:52:04Z</time>
+<speed>13.88</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2463261" lon="-2.3858814"><ele>52.36</ele><time>2020-08-28T15:52:05Z</time>
+<speed>14.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2462171" lon="-2.3858014"><ele>52.45</ele><time>2020-08-28T15:52:06Z</time>
+<speed>13.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2461297" lon="-2.3856983"><ele>52.57</ele><time>2020-08-28T15:52:07Z</time>
+<speed>11.96</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2460729" lon="-2.3855862"><ele>52.69</ele><time>2020-08-28T15:52:08Z</time>
+<speed>9.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2460539" lon="-2.3854729"><ele>52.25</ele><time>2020-08-28T15:52:09Z</time>
+<speed>7.89</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2460606" lon="-2.3853799"><ele>52.14</ele><time>2020-08-28T15:52:10Z</time>
+<speed>6.21</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2460886" lon="-2.3853115"><ele>52.11</ele><time>2020-08-28T15:52:11Z</time>
+<speed>5.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2461292" lon="-2.3852607"><ele>52.46</ele><time>2020-08-28T15:52:12Z</time>
+<speed>5.85</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2461781" lon="-2.3852245"><ele>52.54</ele><time>2020-08-28T15:52:13Z</time>
+<speed>5.68</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2462286" lon="-2.3851922"><ele>52.49</ele><time>2020-08-28T15:52:14Z</time>
+<speed>5.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2462825" lon="-2.3851572"><ele>52.55</ele><time>2020-08-28T15:52:15Z</time>
+<speed>6.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2463427" lon="-2.3851211"><ele>52.67</ele><time>2020-08-28T15:52:16Z</time>
+<speed>7.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.246409" lon="-2.3850823"><ele>52.48</ele><time>2020-08-28T15:52:17Z</time>
+<speed>7.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2464846" lon="-2.3850426"><ele>52.54</ele><time>2020-08-28T15:52:18Z</time>
+<speed>9.31</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2465682" lon="-2.3849974"><ele>52.5</ele><time>2020-08-28T15:52:19Z</time>
+<speed>9.81</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.246658" lon="-2.3849463"><ele>52.53</ele><time>2020-08-28T15:52:20Z</time>
+<speed>10.95</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2467545" lon="-2.3848982"><ele>52.57</ele><time>2020-08-28T15:52:21Z</time>
+<speed>11.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2468539" lon="-2.3848533"><ele>52.59</ele><time>2020-08-28T15:52:22Z</time>
+<speed>11.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2469565" lon="-2.3848085"><ele>52.62</ele><time>2020-08-28T15:52:23Z</time>
+<speed>11.79</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2470628" lon="-2.3847625"><ele>52.59</ele><time>2020-08-28T15:52:24Z</time>
+<speed>12.24</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2471718" lon="-2.3847142"><ele>52.31</ele><time>2020-08-28T15:52:25Z</time>
+<speed>12.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2472838" lon="-2.3846739"><ele>52.39</ele><time>2020-08-28T15:52:26Z</time>
+<speed>12.74</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2473972" lon="-2.3846462"><ele>52.52</ele><time>2020-08-28T15:52:27Z</time>
+<speed>12.38</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2475081" lon="-2.3846189"><ele>52.16</ele><time>2020-08-28T15:52:28Z</time>
+<speed>11.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2476185" lon="-2.3845904"><ele>52.33</ele><time>2020-08-28T15:52:29Z</time>
+<speed>12.63</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2477294" lon="-2.3845599"><ele>52.64</ele><time>2020-08-28T15:52:30Z</time>
+<speed>12.24</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2478372" lon="-2.3845187"><ele>52.32</ele><time>2020-08-28T15:52:31Z</time>
+<speed>11.82</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.247945" lon="-2.3844738"><ele>52.16</ele><time>2020-08-28T15:52:32Z</time>
+<speed>12.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.248058" lon="-2.3844306"><ele>52.03</ele><time>2020-08-28T15:52:33Z</time>
+<speed>12.81</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2481711" lon="-2.3843895"><ele>52.26</ele><time>2020-08-28T15:52:34Z</time>
+<speed>12.89</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2482834" lon="-2.3843464"><ele>52.01</ele><time>2020-08-28T15:52:35Z</time>
+<speed>12.37</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2483934" lon="-2.3842955"><ele>52.06</ele><time>2020-08-28T15:52:36Z</time>
+<speed>12.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2485068" lon="-2.3842429"><ele>52.21</ele><time>2020-08-28T15:52:37Z</time>
+<speed>13.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2486235" lon="-2.3841891"><ele>52.02</ele><time>2020-08-28T15:52:38Z</time>
+<speed>13.6</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2487428" lon="-2.3841331"><ele>51.96</ele><time>2020-08-28T15:52:39Z</time>
+<speed>13.89</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2488628" lon="-2.3840808"><ele>51.91</ele><time>2020-08-28T15:52:40Z</time>
+<speed>13.68</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2489826" lon="-2.3840353"><ele>51.86</ele><time>2020-08-28T15:52:41Z</time>
+<speed>13.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2491039" lon="-2.3839955"><ele>51.95</ele><time>2020-08-28T15:52:42Z</time>
+<speed>13.85</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2492255" lon="-2.3839517"><ele>52.09</ele><time>2020-08-28T15:52:43Z</time>
+<speed>13.77</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2493467" lon="-2.3839074"><ele>52.01</ele><time>2020-08-28T15:52:44Z</time>
+<speed>13.73</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2494687" lon="-2.3838701"><ele>52.19</ele><time>2020-08-28T15:52:45Z</time>
+<speed>13.82</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2495912" lon="-2.3838373"><ele>52.14</ele><time>2020-08-28T15:52:46Z</time>
+<speed>13.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2497113" lon="-2.3838113"><ele>51.89</ele><time>2020-08-28T15:52:47Z</time>
+<speed>13.14</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2498302" lon="-2.3837897"><ele>51.99</ele><time>2020-08-28T15:52:48Z</time>
+<speed>13.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2499486" lon="-2.3837644"><ele>52.19</ele><time>2020-08-28T15:52:49Z</time>
+<speed>13.15</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2500663" lon="-2.3837357"><ele>52.22</ele><time>2020-08-28T15:52:50Z</time>
+<speed>13.16</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2501847" lon="-2.3837074"><ele>52.14</ele><time>2020-08-28T15:52:51Z</time>
+<speed>13.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2503033" lon="-2.3836806"><ele>52.31</ele><time>2020-08-28T15:52:52Z</time>
+<speed>13.31</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2504208" lon="-2.38365"><ele>52.27</ele><time>2020-08-28T15:52:53Z</time>
+<speed>13.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2505373" lon="-2.3836126"><ele>52.16</ele><time>2020-08-28T15:52:54Z</time>
+<speed>13.24</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2506565" lon="-2.3835667"><ele>52.09</ele><time>2020-08-28T15:52:55Z</time>
+<speed>13.94</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2507785" lon="-2.3835097"><ele>52.18</ele><time>2020-08-28T15:52:56Z</time>
+<speed>14.37</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2509016" lon="-2.3834484"><ele>52.31</ele><time>2020-08-28T15:52:57Z</time>
+<speed>14.39</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2510262" lon="-2.3833918"><ele>52.32</ele><time>2020-08-28T15:52:58Z</time>
+<speed>14.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2511514" lon="-2.3833411"><ele>52.38</ele><time>2020-08-28T15:52:59Z</time>
+<speed>14.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2512766" lon="-2.3832908"><ele>52.43</ele><time>2020-08-28T15:53:00Z</time>
+<speed>14.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2514012" lon="-2.3832385"><ele>52.27</ele><time>2020-08-28T15:53:01Z</time>
+<speed>14.24</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.251524" lon="-2.3831873"><ele>52.11</ele><time>2020-08-28T15:53:02Z</time>
+<speed>13.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2516462" lon="-2.3831373"><ele>52.19</ele><time>2020-08-28T15:53:03Z</time>
+<speed>14.14</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2517671" lon="-2.3830911"><ele>52.27</ele><time>2020-08-28T15:53:04Z</time>
+<speed>13.58</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2518855" lon="-2.3830565"><ele>52.43</ele><time>2020-08-28T15:53:05Z</time>
+<speed>13.23</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2520022" lon="-2.3830256"><ele>52.37</ele><time>2020-08-28T15:53:06Z</time>
+<speed>13.01</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2521186" lon="-2.3829854"><ele>52.44</ele><time>2020-08-28T15:53:07Z</time>
+<speed>13.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2522367" lon="-2.3829378"><ele>52.7</ele><time>2020-08-28T15:53:08Z</time>
+<speed>13.68</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.252354" lon="-2.3828868"><ele>52.81</ele><time>2020-08-28T15:53:09Z</time>
+<speed>13.4</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2524705" lon="-2.3828341"><ele>52.71</ele><time>2020-08-28T15:53:10Z</time>
+<speed>13.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2525888" lon="-2.3827817"><ele>52.61</ele><time>2020-08-28T15:53:11Z</time>
+<speed>13.83</speed>
+<hdop>1.0</hdop>
+<sat>7</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2527086" lon="-2.3827287"><ele>52.77</ele><time>2020-08-28T15:53:12Z</time>
+<speed>13.94</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2528302" lon="-2.3826755"><ele>52.63</ele><time>2020-08-28T15:53:13Z</time>
+<speed>14.11</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2529517" lon="-2.3826236"><ele>52.53</ele><time>2020-08-28T15:53:14Z</time>
+<speed>13.94</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2530706" lon="-2.382566"><ele>52.59</ele><time>2020-08-28T15:53:15Z</time>
+<speed>13.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2531846" lon="-2.3824893"><ele>52.67</ele><time>2020-08-28T15:53:16Z</time>
+<speed>13.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2532933" lon="-2.3824039"><ele>52.75</ele><time>2020-08-28T15:53:17Z</time>
+<speed>13.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2534017" lon="-2.3823227"><ele>52.66</ele><time>2020-08-28T15:53:18Z</time>
+<speed>13.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2535129" lon="-2.3822559"><ele>52.51</ele><time>2020-08-28T15:53:19Z</time>
+<speed>13.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.253626" lon="-2.3822063"><ele>52.59</ele><time>2020-08-28T15:53:20Z</time>
+<speed>13.16</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2537402" lon="-2.3821551"><ele>52.59</ele><time>2020-08-28T15:53:21Z</time>
+<speed>13.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2538542" lon="-2.3821059"><ele>52.75</ele><time>2020-08-28T15:53:22Z</time>
+<speed>13.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2539662" lon="-2.3820603"><ele>52.92</ele><time>2020-08-28T15:53:23Z</time>
+<speed>12.71</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.254073" lon="-2.3820058"><ele>52.88</ele><time>2020-08-28T15:53:24Z</time>
+<speed>12.38</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2541782" lon="-2.3819484"><ele>52.66</ele><time>2020-08-28T15:53:25Z</time>
+<speed>12.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2542854" lon="-2.3818961"><ele>52.65</ele><time>2020-08-28T15:53:26Z</time>
+<speed>12.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2543939" lon="-2.3818483"><ele>52.75</ele><time>2020-08-28T15:53:27Z</time>
+<speed>12.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2545007" lon="-2.3817951"><ele>52.69</ele><time>2020-08-28T15:53:28Z</time>
+<speed>12.49</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.254606" lon="-2.3817346"><ele>52.69</ele><time>2020-08-28T15:53:29Z</time>
+<speed>12.64</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2547122" lon="-2.3816735"><ele>52.52</ele><time>2020-08-28T15:53:30Z</time>
+<speed>12.66</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2548198" lon="-2.3816115"><ele>52.54</ele><time>2020-08-28T15:53:31Z</time>
+<speed>13.05</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2549319" lon="-2.3815486"><ele>52.39</ele><time>2020-08-28T15:53:32Z</time>
+<speed>13.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2550466" lon="-2.3814858"><ele>52.39</ele><time>2020-08-28T15:53:33Z</time>
+<speed>13.68</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2551617" lon="-2.3814234"><ele>52.38</ele><time>2020-08-28T15:53:34Z</time>
+<speed>13.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2552764" lon="-2.381357"><ele>52.19</ele><time>2020-08-28T15:53:35Z</time>
+<speed>13.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2553892" lon="-2.3812925"><ele>52.22</ele><time>2020-08-28T15:53:36Z</time>
+<speed>13.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2554995" lon="-2.3812365"><ele>52.39</ele><time>2020-08-28T15:53:37Z</time>
+<speed>12.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2556076" lon="-2.3811836"><ele>52.52</ele><time>2020-08-28T15:53:38Z</time>
+<speed>12.52</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2557147" lon="-2.3811294"><ele>52.38</ele><time>2020-08-28T15:53:39Z</time>
+<speed>12.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.255821" lon="-2.381075"><ele>52.49</ele><time>2020-08-28T15:53:40Z</time>
+<speed>12.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2559265" lon="-2.3810229"><ele>52.55</ele><time>2020-08-28T15:53:41Z</time>
+<speed>12.25</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2560307" lon="-2.3809729"><ele>52.57</ele><time>2020-08-28T15:53:42Z</time>
+<speed>12.2</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2561344" lon="-2.380925"><ele>52.65</ele><time>2020-08-28T15:53:43Z</time>
+<speed>12.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2562376" lon="-2.3808782"><ele>52.83</ele><time>2020-08-28T15:53:44Z</time>
+<speed>12.05</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2563403" lon="-2.3808284"><ele>52.64</ele><time>2020-08-28T15:53:45Z</time>
+<speed>11.88</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2564413" lon="-2.3807796"><ele>52.64</ele><time>2020-08-28T15:53:46Z</time>
+<speed>11.86</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2565425" lon="-2.380734"><ele>52.7</ele><time>2020-08-28T15:53:47Z</time>
+<speed>11.78</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2566429" lon="-2.3806866"><ele>52.64</ele><time>2020-08-28T15:53:48Z</time>
+<speed>11.66</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2567409" lon="-2.3806379"><ele>52.77</ele><time>2020-08-28T15:53:49Z</time>
+<speed>11.49</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2568379" lon="-2.3805878"><ele>52.58</ele><time>2020-08-28T15:53:50Z</time>
+<speed>11.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2569335" lon="-2.3805393"><ele>52.88</ele><time>2020-08-28T15:53:51Z</time>
+<speed>11.5</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2570297" lon="-2.3804876"><ele>52.93</ele><time>2020-08-28T15:53:52Z</time>
+<speed>11.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.257123" lon="-2.3804273"><ele>53.12</ele><time>2020-08-28T15:53:53Z</time>
+<speed>11.46</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2572153" lon="-2.3803685"><ele>53.1</ele><time>2020-08-28T15:53:54Z</time>
+<speed>10.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2573047" lon="-2.3803128"><ele>52.89</ele><time>2020-08-28T15:53:55Z</time>
+<speed>10.64</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2573937" lon="-2.3802654"><ele>53.08</ele><time>2020-08-28T15:53:56Z</time>
+<speed>10.63</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2574847" lon="-2.3802305"><ele>53.12</ele><time>2020-08-28T15:53:57Z</time>
+<speed>10.33</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2575749" lon="-2.3801979"><ele>53.15</ele><time>2020-08-28T15:53:58Z</time>
+<speed>10.37</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2576647" lon="-2.3801617"><ele>53.1</ele><time>2020-08-28T15:53:59Z</time>
+<speed>10.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2577543" lon="-2.3801241"><ele>52.98</ele><time>2020-08-28T15:54:00Z</time>
+<speed>10.43</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2578447" lon="-2.3800853"><ele>53.03</ele><time>2020-08-28T15:54:01Z</time>
+<speed>10.6</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2579348" lon="-2.3800392"><ele>53.03</ele><time>2020-08-28T15:54:02Z</time>
+<speed>10.65</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2580254" lon="-2.3799859"><ele>52.91</ele><time>2020-08-28T15:54:03Z</time>
+<speed>10.99</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2581189" lon="-2.379929"><ele>52.95</ele><time>2020-08-28T15:54:04Z</time>
+<speed>11.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2582154" lon="-2.379872"><ele>52.83</ele><time>2020-08-28T15:54:05Z</time>
+<speed>11.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2583129" lon="-2.3798178"><ele>52.83</ele><time>2020-08-28T15:54:06Z</time>
+<speed>11.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2584108" lon="-2.3797649"><ele>52.61</ele><time>2020-08-28T15:54:07Z</time>
+<speed>11.51</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2585086" lon="-2.3797149"><ele>52.56</ele><time>2020-08-28T15:54:08Z</time>
+<speed>11.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2586054" lon="-2.3796692"><ele>52.58</ele><time>2020-08-28T15:54:09Z</time>
+<speed>11.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2586995" lon="-2.3796307"><ele>52.68</ele><time>2020-08-28T15:54:10Z</time>
+<speed>10.69</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2587933" lon="-2.3795947"><ele>52.53</ele><time>2020-08-28T15:54:11Z</time>
+<speed>10.79</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2588872" lon="-2.379555"><ele>52.44</ele><time>2020-08-28T15:54:12Z</time>
+<speed>10.93</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.258982" lon="-2.3795146"><ele>52.29</ele><time>2020-08-28T15:54:13Z</time>
+<speed>10.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2590771" lon="-2.3794738"><ele>52.28</ele><time>2020-08-28T15:54:14Z</time>
+<speed>11.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2591707" lon="-2.3794263"><ele>52.41</ele><time>2020-08-28T15:54:15Z</time>
+<speed>11.04</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2592624" lon="-2.3793709"><ele>52.38</ele><time>2020-08-28T15:54:16Z</time>
+<speed>10.95</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2593544" lon="-2.379313"><ele>52.38</ele><time>2020-08-28T15:54:17Z</time>
+<speed>11.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2594489" lon="-2.379256"><ele>52.38</ele><time>2020-08-28T15:54:18Z</time>
+<speed>11.4</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2595444" lon="-2.3791995"><ele>52.48</ele><time>2020-08-28T15:54:19Z</time>
+<speed>11.54</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2596402" lon="-2.3791437"><ele>52.75</ele><time>2020-08-28T15:54:20Z</time>
+<speed>11.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2597365" lon="-2.3790852"><ele>52.71</ele><time>2020-08-28T15:54:21Z</time>
+<speed>11.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2598336" lon="-2.3790265"><ele>52.71</ele><time>2020-08-28T15:54:22Z</time>
+<speed>11.74</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2599334" lon="-2.3789693"><ele>52.7</ele><time>2020-08-28T15:54:23Z</time>
+<speed>12.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2600374" lon="-2.3789125"><ele>52.67</ele><time>2020-08-28T15:54:24Z</time>
+<speed>12.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2601468" lon="-2.3788547"><ele>52.51</ele><time>2020-08-28T15:54:25Z</time>
+<speed>13.12</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.260259" lon="-2.3787987"><ele>52.61</ele><time>2020-08-28T15:54:26Z</time>
+<speed>13.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2603722" lon="-2.3787451"><ele>52.54</ele><time>2020-08-28T15:54:27Z</time>
+<speed>13.21</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2604877" lon="-2.3786861"><ele>52.37</ele><time>2020-08-28T15:54:28Z</time>
+<speed>13.87</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2606071" lon="-2.3786208"><ele>52.26</ele><time>2020-08-28T15:54:29Z</time>
+<speed>14.38</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2607292" lon="-2.3785557"><ele>52.4</ele><time>2020-08-28T15:54:30Z</time>
+<speed>14.47</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2608495" lon="-2.3784885"><ele>52.25</ele><time>2020-08-28T15:54:31Z</time>
+<speed>14.05</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.260968" lon="-2.3784159"><ele>52.1</ele><time>2020-08-28T15:54:32Z</time>
+<speed>14.37</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2610879" lon="-2.37834"><ele>51.86</ele><time>2020-08-28T15:54:33Z</time>
+<speed>14.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2612067" lon="-2.3782578"><ele>51.89</ele><time>2020-08-28T15:54:34Z</time>
+<speed>14.63</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2613212" lon="-2.3781674"><ele>51.75</ele><time>2020-08-28T15:54:35Z</time>
+<speed>14.2</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2614333" lon="-2.3780826"><ele>51.84</ele><time>2020-08-28T15:54:36Z</time>
+<speed>13.91</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2615477" lon="-2.3780086"><ele>51.87</ele><time>2020-08-28T15:54:37Z</time>
+<speed>13.79</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2616609" lon="-2.3779385"><ele>52.03</ele><time>2020-08-28T15:54:38Z</time>
+<speed>13.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2617738" lon="-2.3778733"><ele>52.22</ele><time>2020-08-28T15:54:39Z</time>
+<speed>13.47</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2618878" lon="-2.3778074"><ele>52.14</ele><time>2020-08-28T15:54:40Z</time>
+<speed>13.63</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.262003" lon="-2.3777342"><ele>52.03</ele><time>2020-08-28T15:54:41Z</time>
+<speed>14.15</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2621194" lon="-2.377661"><ele>52.1</ele><time>2020-08-28T15:54:42Z</time>
+<speed>14.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2622355" lon="-2.377587"><ele>52.2</ele><time>2020-08-28T15:54:43Z</time>
+<speed>14.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2623499" lon="-2.3775072"><ele>52.49</ele><time>2020-08-28T15:54:44Z</time>
+<speed>14.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2624628" lon="-2.3774238"><ele>52.36</ele><time>2020-08-28T15:54:45Z</time>
+<speed>13.75</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2625749" lon="-2.3773396"><ele>52.23</ele><time>2020-08-28T15:54:46Z</time>
+<speed>14.22</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2626901" lon="-2.3772531"><ele>52.09</ele><time>2020-08-28T15:54:47Z</time>
+<speed>14.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2628062" lon="-2.3771738"><ele>52.18</ele><time>2020-08-28T15:54:48Z</time>
+<speed>14.04</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.262921" lon="-2.3771045"><ele>52.35</ele><time>2020-08-28T15:54:49Z</time>
+<speed>13.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2630333" lon="-2.3770324"><ele>52.46</ele><time>2020-08-28T15:54:50Z</time>
+<speed>13.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2631444" lon="-2.3769541"><ele>52.47</ele><time>2020-08-28T15:54:51Z</time>
+<speed>13.66</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.263256" lon="-2.3768718"><ele>52.2</ele><time>2020-08-28T15:54:52Z</time>
+<speed>14.03</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.263371" lon="-2.3767912"><ele>52.29</ele><time>2020-08-28T15:54:53Z</time>
+<speed>14.41</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2634892" lon="-2.3767217"><ele>52.37</ele><time>2020-08-28T15:54:54Z</time>
+<speed>13.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2636055" lon="-2.3766574"><ele>52.49</ele><time>2020-08-28T15:54:55Z</time>
+<speed>13.71</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2637201" lon="-2.376589"><ele>52.36</ele><time>2020-08-28T15:54:56Z</time>
+<speed>13.69</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2638331" lon="-2.3765186"><ele>52.44</ele><time>2020-08-28T15:54:57Z</time>
+<speed>13.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2639469" lon="-2.3764487"><ele>52.24</ele><time>2020-08-28T15:54:58Z</time>
+<speed>13.66</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2640604" lon="-2.3763805"><ele>52.23</ele><time>2020-08-28T15:54:59Z</time>
+<speed>13.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2641749" lon="-2.3763156"><ele>52.28</ele><time>2020-08-28T15:55:00Z</time>
+<speed>13.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2642887" lon="-2.3762469"><ele>52.31</ele><time>2020-08-28T15:55:01Z</time>
+<speed>13.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2644002" lon="-2.376176"><ele>52.22</ele><time>2020-08-28T15:55:02Z</time>
+<speed>13.3</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2645084" lon="-2.3761058"><ele>52.12</ele><time>2020-08-28T15:55:03Z</time>
+<speed>13.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2646144" lon="-2.3760376"><ele>52.18</ele><time>2020-08-28T15:55:04Z</time>
+<speed>12.84</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2647202" lon="-2.3759764"><ele>51.99</ele><time>2020-08-28T15:55:05Z</time>
+<speed>12.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2648248" lon="-2.3759232"><ele>52.02</ele><time>2020-08-28T15:55:06Z</time>
+<speed>12.31</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2649283" lon="-2.3758719"><ele>52.08</ele><time>2020-08-28T15:55:07Z</time>
+<speed>12.05</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2650307" lon="-2.3758191"><ele>52.13</ele><time>2020-08-28T15:55:08Z</time>
+<speed>12.14</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2651332" lon="-2.3757654"><ele>52.15</ele><time>2020-08-28T15:55:09Z</time>
+<speed>12.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2652376" lon="-2.3757103"><ele>51.98</ele><time>2020-08-28T15:55:10Z</time>
+<speed>12.55</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.265346" lon="-2.375656"><ele>51.92</ele><time>2020-08-28T15:55:11Z</time>
+<speed>13.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2654557" lon="-2.3756041"><ele>52.04</ele><time>2020-08-28T15:55:12Z</time>
+<speed>12.72</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2655615" lon="-2.3755518"><ele>52.04</ele><time>2020-08-28T15:55:13Z</time>
+<speed>12.22</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2656638" lon="-2.3754981"><ele>52.13</ele><time>2020-08-28T15:55:14Z</time>
+<speed>12.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2657646" lon="-2.3754441"><ele>52.29</ele><time>2020-08-28T15:55:15Z</time>
+<speed>11.95</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2658633" lon="-2.3753903"><ele>52.41</ele><time>2020-08-28T15:55:16Z</time>
+<speed>11.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2659598" lon="-2.3753372"><ele>52.58</ele><time>2020-08-28T15:55:17Z</time>
+<speed>11.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2660554" lon="-2.3752843"><ele>52.51</ele><time>2020-08-28T15:55:18Z</time>
+<speed>11.27</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2661508" lon="-2.3752325"><ele>52.58</ele><time>2020-08-28T15:55:19Z</time>
+<speed>11.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.266246" lon="-2.375181"><ele>52.7</ele><time>2020-08-28T15:55:20Z</time>
+<speed>11.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2663413" lon="-2.3751309"><ele>52.75</ele><time>2020-08-28T15:55:21Z</time>
+<speed>11.29</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2664372" lon="-2.375082"><ele>52.98</ele><time>2020-08-28T15:55:22Z</time>
+<speed>11.41</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2665345" lon="-2.3750305"><ele>52.99</ele><time>2020-08-28T15:55:23Z</time>
+<speed>11.56</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2666337" lon="-2.3749785"><ele>52.87</ele><time>2020-08-28T15:55:24Z</time>
+<speed>11.78</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2667369" lon="-2.3749201"><ele>52.67</ele><time>2020-08-28T15:55:25Z</time>
+<speed>12.68</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2668428" lon="-2.3748535"><ele>52.74</ele><time>2020-08-28T15:55:26Z</time>
+<speed>13.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2669501" lon="-2.3747914"><ele>52.48</ele><time>2020-08-28T15:55:27Z</time>
+<speed>12.48</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2670576" lon="-2.3747393"><ele>52.57</ele><time>2020-08-28T15:55:28Z</time>
+<speed>12.85</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2671665" lon="-2.3746874"><ele>52.62</ele><time>2020-08-28T15:55:29Z</time>
+<speed>12.62</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2672721" lon="-2.3746344"><ele>52.79</ele><time>2020-08-28T15:55:30Z</time>
+<speed>12.2</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.267375" lon="-2.374578"><ele>52.77</ele><time>2020-08-28T15:55:31Z</time>
+<speed>12.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.267476" lon="-2.3745186"><ele>52.8</ele><time>2020-08-28T15:55:32Z</time>
+<speed>12.07</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2675777" lon="-2.3744601"><ele>52.79</ele><time>2020-08-28T15:55:33Z</time>
+<speed>12.13</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2676795" lon="-2.3743951"><ele>52.72</ele><time>2020-08-28T15:55:34Z</time>
+<speed>12.47</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2677823" lon="-2.3743226"><ele>52.75</ele><time>2020-08-28T15:55:35Z</time>
+<speed>12.84</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2678879" lon="-2.374249"><ele>52.66</ele><time>2020-08-28T15:55:36Z</time>
+<speed>13.05</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2679955" lon="-2.3741787"><ele>52.56</ele><time>2020-08-28T15:55:37Z</time>
+<speed>13.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2681042" lon="-2.3741131"><ele>52.63</ele><time>2020-08-28T15:55:38Z</time>
+<speed>13.11</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2682129" lon="-2.3740496"><ele>52.82</ele><time>2020-08-28T15:55:39Z</time>
+<speed>12.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2683213" lon="-2.3739857"><ele>52.79</ele><time>2020-08-28T15:55:40Z</time>
+<speed>12.81</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2684286" lon="-2.3739196"><ele>52.78</ele><time>2020-08-28T15:55:41Z</time>
+<speed>12.92</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.268534" lon="-2.3738509"><ele>52.75</ele><time>2020-08-28T15:55:42Z</time>
+<speed>12.63</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2686361" lon="-2.3737807"><ele>52.66</ele><time>2020-08-28T15:55:43Z</time>
+<speed>12.35</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2687373" lon="-2.3737108"><ele>52.49</ele><time>2020-08-28T15:55:44Z</time>
+<speed>12.4</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.268839" lon="-2.3736433"><ele>52.49</ele><time>2020-08-28T15:55:45Z</time>
+<speed>12.45</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2689412" lon="-2.373577"><ele>52.62</ele><time>2020-08-28T15:55:46Z</time>
+<speed>12.45</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2690454" lon="-2.3735114"><ele>52.58</ele><time>2020-08-28T15:55:47Z</time>
+<speed>12.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2691532" lon="-2.3734499"><ele>52.54</ele><time>2020-08-28T15:55:48Z</time>
+<speed>12.98</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2692615" lon="-2.3733915"><ele>52.73</ele><time>2020-08-28T15:55:49Z</time>
+<speed>12.75</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.269366" lon="-2.3733355"><ele>52.72</ele><time>2020-08-28T15:55:50Z</time>
+<speed>11.94</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2694652" lon="-2.3732826"><ele>52.89</ele><time>2020-08-28T15:55:51Z</time>
+<speed>11.62</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2695607" lon="-2.3732276"><ele>52.85</ele><time>2020-08-28T15:55:52Z</time>
+<speed>11.16</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2696529" lon="-2.3731644"><ele>52.62</ele><time>2020-08-28T15:55:53Z</time>
+<speed>11.31</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2697442" lon="-2.3731001"><ele>52.51</ele><time>2020-08-28T15:55:54Z</time>
+<speed>11.24</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2698373" lon="-2.3730423"><ele>52.55</ele><time>2020-08-28T15:55:55Z</time>
+<speed>11.33</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2699304" lon="-2.3729877"><ele>52.63</ele><time>2020-08-28T15:55:56Z</time>
+<speed>11.02</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2700213" lon="-2.372933"><ele>52.55</ele><time>2020-08-28T15:55:57Z</time>
+<speed>10.82</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2701088" lon="-2.3728784"><ele>52.66</ele><time>2020-08-28T15:55:58Z</time>
+<speed>10.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2701959" lon="-2.3728235"><ele>52.6</ele><time>2020-08-28T15:55:59Z</time>
+<speed>10.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2702849" lon="-2.3727682"><ele>52.58</ele><time>2020-08-28T15:56:00Z</time>
+<speed>10.88</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2703744" lon="-2.3727126"><ele>52.68</ele><time>2020-08-28T15:56:01Z</time>
+<speed>10.78</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2704628" lon="-2.3726562"><ele>52.82</ele><time>2020-08-28T15:56:02Z</time>
+<speed>10.73</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2705498" lon="-2.3725975"><ele>52.93</ele><time>2020-08-28T15:56:03Z</time>
+<speed>10.57</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2706345" lon="-2.3725386"><ele>53.07</ele><time>2020-08-28T15:56:04Z</time>
+<speed>10.32</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2707199" lon="-2.3724781"><ele>52.98</ele><time>2020-08-28T15:56:05Z</time>
+<speed>10.65</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2708069" lon="-2.3724132"><ele>53.03</ele><time>2020-08-28T15:56:06Z</time>
+<speed>11.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2708967" lon="-2.3723458"><ele>52.84</ele><time>2020-08-28T15:56:07Z</time>
+<speed>11.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2709889" lon="-2.3722791"><ele>52.63</ele><time>2020-08-28T15:56:08Z</time>
+<speed>11.53</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.271084" lon="-2.3722136"><ele>52.44</ele><time>2020-08-28T15:56:09Z</time>
+<speed>11.76</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2711811" lon="-2.3721516"><ele>52.46</ele><time>2020-08-28T15:56:10Z</time>
+<speed>11.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2712785" lon="-2.3720866"><ele>52.55</ele><time>2020-08-28T15:56:11Z</time>
+<speed>12.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2713766" lon="-2.3720178"><ele>52.54</ele><time>2020-08-28T15:56:12Z</time>
+<speed>12.15</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2714779" lon="-2.3719558"><ele>52.68</ele><time>2020-08-28T15:56:13Z</time>
+<speed>12.32</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2715845" lon="-2.3718983"><ele>52.58</ele><time>2020-08-28T15:56:14Z</time>
+<speed>12.8</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2716946" lon="-2.3718348"><ele>52.65</ele><time>2020-08-28T15:56:15Z</time>
+<speed>13.46</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2718058" lon="-2.371761"><ele>52.76</ele><time>2020-08-28T15:56:16Z</time>
+<speed>13.6</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2719168" lon="-2.3716752"><ele>52.75</ele><time>2020-08-28T15:56:17Z</time>
+<speed>14.15</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2720277" lon="-2.3715811"><ele>52.68</ele><time>2020-08-28T15:56:18Z</time>
+<speed>14.1</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2721391" lon="-2.3714858"><ele>52.52</ele><time>2020-08-28T15:56:19Z</time>
+<speed>14.4</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2722518" lon="-2.3713905"><ele>52.58</ele><time>2020-08-28T15:56:20Z</time>
+<speed>14.42</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2723648" lon="-2.3712957"><ele>52.73</ele><time>2020-08-28T15:56:21Z</time>
+<speed>14.49</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2724784" lon="-2.3712014"><ele>52.66</ele><time>2020-08-28T15:56:22Z</time>
+<speed>14.31</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2725893" lon="-2.3711046"><ele>52.44</ele><time>2020-08-28T15:56:23Z</time>
+<speed>14.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2726985" lon="-2.3710093"><ele>52.55</ele><time>2020-08-28T15:56:24Z</time>
+<speed>14.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.272809" lon="-2.3709197"><ele>52.4</ele><time>2020-08-28T15:56:25Z</time>
+<speed>13.84</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2729167" lon="-2.3708258"><ele>52.4</ele><time>2020-08-28T15:56:26Z</time>
+<speed>13.95</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2730261" lon="-2.3707323"><ele>52.53</ele><time>2020-08-28T15:56:27Z</time>
+<speed>14.08</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2731387" lon="-2.370655"><ele>52.76</ele><time>2020-08-28T15:56:28Z</time>
+<speed>13.67</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2732515" lon="-2.3705894"><ele>52.67</ele><time>2020-08-28T15:56:29Z</time>
+<speed>13.17</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2733629" lon="-2.3705298"><ele>52.9</ele><time>2020-08-28T15:56:30Z</time>
+<speed>13.22</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2734761" lon="-2.3704749"><ele>52.76</ele><time>2020-08-28T15:56:31Z</time>
+<speed>13.18</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2735919" lon="-2.3704245"><ele>52.62</ele><time>2020-08-28T15:56:32Z</time>
+<speed>13.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2737104" lon="-2.3703846"><ele>52.55</ele><time>2020-08-28T15:56:33Z</time>
+<speed>13.45</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2738293" lon="-2.370357"><ele>52.75</ele><time>2020-08-28T15:56:34Z</time>
+<speed>13.46</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2739488" lon="-2.3703322"><ele>52.53</ele><time>2020-08-28T15:56:35Z</time>
+<speed>13.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.274067" lon="-2.3703032"><ele>52.58</ele><time>2020-08-28T15:56:36Z</time>
+<speed>13.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2741874" lon="-2.3702675"><ele>52.74</ele><time>2020-08-28T15:56:37Z</time>
+<speed>13.9</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2743098" lon="-2.3702242"><ele>52.6</ele><time>2020-08-28T15:56:38Z</time>
+<speed>14.0</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2744332" lon="-2.3701713"><ele>52.62</ele><time>2020-08-28T15:56:39Z</time>
+<speed>14.54</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2745527" lon="-2.3701193"><ele>52.75</ele><time>2020-08-28T15:56:40Z</time>
+<speed>13.25</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2746632" lon="-2.3700895"><ele>52.95</ele><time>2020-08-28T15:56:41Z</time>
+<speed>11.97</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2747636" lon="-2.3700843"><ele>53.05</ele><time>2020-08-28T15:56:42Z</time>
+<speed>10.62</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2748558" lon="-2.370096"><ele>52.99</ele><time>2020-08-28T15:56:43Z</time>
+<speed>10.14</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2749472" lon="-2.3701184"><ele>52.72</ele><time>2020-08-28T15:56:44Z</time>
+<speed>10.61</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2750426" lon="-2.3701463"><ele>52.53</ele><time>2020-08-28T15:56:45Z</time>
+<speed>11.09</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2751416" lon="-2.370183"><ele>52.52</ele><time>2020-08-28T15:56:46Z</time>
+<speed>11.7</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2752406" lon="-2.3702229"><ele>52.39</ele><time>2020-08-28T15:56:47Z</time>
+<speed>11.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2753332" lon="-2.3702652"><ele>52.4</ele><time>2020-08-28T15:56:48Z</time>
+<speed>10.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2754175" lon="-2.3703142"><ele>52.27</ele><time>2020-08-28T15:56:49Z</time>
+<speed>9.75</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2754987" lon="-2.3703597"><ele>52.09</ele><time>2020-08-28T15:56:50Z</time>
+<speed>9.59</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2755802" lon="-2.3704031"><ele>52.01</ele><time>2020-08-28T15:56:51Z</time>
+<speed>9.69</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2756595" lon="-2.3704506"><ele>51.93</ele><time>2020-08-28T15:56:52Z</time>
+<speed>9.39</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.275737" lon="-2.370498"><ele>51.89</ele><time>2020-08-28T15:56:53Z</time>
+<speed>9.28</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2758146" lon="-2.3705392"><ele>51.84</ele><time>2020-08-28T15:56:54Z</time>
+<speed>9.19</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2758954" lon="-2.3705687"><ele>51.76</ele><time>2020-08-28T15:56:55Z</time>
+<speed>9.44</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2759809" lon="-2.3705842"><ele>51.88</ele><time>2020-08-28T15:56:56Z</time>
+<speed>9.83</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+<trkpt lat="47.2760707" lon="-2.370581"><ele>52.01</ele><time>2020-08-28T15:56:57Z</time>
+<speed>10.26</speed>
+<hdop>1.0</hdop>
+<sat>8</sat>
+<gpsarPro:satsInView>0</gpsarPro:satsInView></trkpt>
+</trkseg>
+<color>-65536</color>
+<gpsarPro:nGPS>1</gpsarPro:nGPS>
+<gpsarPro:maxNoDataDuration>60000</gpsarPro:maxNoDataDuration>
+</trk>
+<gpsarPro:annotations>
+</gpsarPro:annotations>
+</gpx>
