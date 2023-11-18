@@ -14,6 +14,7 @@ class MapViewWidget(MapView):
 
     def __init__(self,  **kwargs):
         super(MapViewWidget, self).__init__(**kwargs)
+        self.map_source.url = "https://api.maptiler.com/maps/ocean/{z}/{x}/{y}.png?key=PzWJbIhOZ5nCgZozMu3I"
         self.lon = 30.2
         self.lat = 59.9
         self.zoom = 10
