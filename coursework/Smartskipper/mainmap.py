@@ -1,3 +1,6 @@
+import os
+# os.environ["KIVY_NO_CONSOLELOG"] = "1"
+
 from kivymd.app import MDApp
 from kivy.clock import Clock
 from kivy.garden.mapview import MapView, MapMarker
@@ -6,7 +9,6 @@ from xml.dom import minidom
 from datetime import datetime
 import math
 import cv2
-import os
 
 from trackloader import TrackLoader
 
@@ -65,7 +67,7 @@ class MapViewWidget(MapView):
         y = math.sin(dLon) * math.cos(next_lat)
         x = math.cos(lat) * math.sin(next_lat) - math.sin(lat) * math.cos(next_lat) * math.cos(dLon)
         bearing = int(math.atan2(y, x) * 180 / 3.1415)
-        boat = cv2.imread("media/Lodka.png", cv2.IMREAD_UNCHANGED)
+        boat = cv2.imread("coursework\Smartskipper\media\lodka.png", cv2.IMREAD_UNCHANGED)
         height, width = boat.shape[:2]
         image_center = (width / 2, height / 2)
         
@@ -82,12 +84,15 @@ class MapViewWidget(MapView):
         
         rotated_mat = cv2.warpAffine(boat, rotation_mat, (bound_w, bound_h))
 
-        cv2.imwrite("media/rotated.png", rotated_mat)
+        cv2.imwrite("coursework/Smartskipper/media/rotated.png", rotated_mat)
 
 class MainMapApp(MDApp):
     def on_start(self):
         self.load_dialog = TrackLoader()
 
+
+class Wind():
+    pass
 
 if __name__ == "__main__":
     MainMapApp().run()
