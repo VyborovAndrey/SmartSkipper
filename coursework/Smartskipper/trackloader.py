@@ -18,6 +18,6 @@ class TrackLoader(FloatLayout):
 
     def show_load(self):
         if self._popup == None:
-            self._popup = Popup(title="Load file", content=self,
+            self._popup = Popup(title="Choose gpx file of your sailing adventure", content=self,
                                 size_hint=(0.9, 0.9))
         self._popup.open()
