@@ -4,6 +4,8 @@ BoxLayout:
     orientation: "vertical"
     MDTopAppBar:
         id: topbar
-        left_action_items: [["play", lambda x: mapview.on_play()], ["file", lambda x: app.load_dialog.show_load()]]
+        left_action_items: [["play", lambda x: mapview.on_play()], ["file-marker", lambda x: app.load_dialog.show_load()], ["weather-windy", lambda x: None]]
     MapViewWidget:
         id: mapview
+        WindAnimation:
+            id: wind
