@@ -3,14 +3,66 @@ import os
 
 from kivymd.app import MDApp
 from kivy.clock import Clock
-from kivy.garden.mapview import MapView, MapMarker
+from kivy.garden.mapview import MapView, MapMarker, MapLayer
 from functools import partial
 from xml.dom import minidom
-from datetime import datetime
 import math
 import cv2
+import json
 
 from trackloader import TrackLoader
+
+#Для ветра
+from kivy.uix.floatlayout import FloatLayout
+from random import random, randint
+from wind import *
+
+class WindAnimation(MapLayer):
+    
+    def __init__(self, **kwargs):
+        super(WindAnimation, self).__init__(**kwargs)
+        self.winds = []
+        Clock.schedule_interval(self.move_winds, 1/34.0)
+        Clock.schedule_interval(partial(self.add_random_wind, 30), 0.1)
+
+    
+    def add_random_wind(self, angle,*args):
+        random_part_of_screen = randint(0, 1)
+        if angle > 0 and angle < 180:
+            anchor_y = -100
+        else:
+            anchor_y = self.height + 100
+
+        if angle > 90 and angle < 270:
+            anchor_x = self.width + 100
+        else:
+            anchor_x = -100
+
+            
+        random_part_of_screen = randint(0, 1)
+        newwind = Windd(
+                         main_color=[255,255,255,0.6],
+                         o_x = random()*self.width  * (random_part_of_screen * -1 + 1) + (random_part_of_screen * anchor_x),
+                         o_y = random()*self.height * (random_part_of_screen) + (random_part_of_screen * -1 + 1) * anchor_y,
+                         angle=angle,
+                         distance=30,
+                        )
+        self.add_widget(newwind)
+        self.winds.append(newwind)
+
+
+    def move_winds(self,*args):
+
+        for wind in self.winds:
+            wind.o_x, wind.o_y = move_point(wind.o_x,wind.o_y,wind.angle,6)
+            wind.main_color=[x for x in map(lambda y:y * 0.999, wind.main_color)]
+            wind.outline_color=[x for x in map(lambda y:y * 0.999, wind.outline_color)]
+            if wind.main_color[3] < 0.45:
+                self.winds.remove(wind)
+                self.remove_widget(wind)
+                del wind
+            
+
 
 class MapViewWidget(MapView):
 
@@ -21,7 +73,8 @@ class MapViewWidget(MapView):
         self.lat = 59.9
         self.zoom = 10
         self.track = None
-    
+        self.add_widget(WindAnimation())
+
     def load(self, path, filename):
         data = open(str(os.path.join(path, filename[0])))
         xmldoc = minidom.parse(data)
@@ -34,9 +87,8 @@ class MapViewWidget(MapView):
         # times = xmldoc.getElementsByTagName('time')
         # start_point_time = datetime.strptime(times[1].firstChild.nodeValue[-9:-1], "%H:%M:%S")
 
-    
     def on_play(self):
-        if self.track == None:
+        if self.track is None:
             return
         old_marker = MapMarker(source = "media/rotated.png", lon = float(self.track[0].attributes['lon'].value), lat = float(self.track[0].attributes['lat'].value))
         for i in range(self.n_track-1):
@@ -92,7 +144,13 @@ class MainMapApp(MDApp):
 
 
 class Wind():
-    pass
+    def load_wind(self, path, filename):
+        wind_json = open(str(os.path.join(path, filename[0])))
+        self.wind = json.loads(wind_json)
+
+
+    def show_wind(self):
+        pass
 
 if __name__ == "__main__":
     MainMapApp().run()
