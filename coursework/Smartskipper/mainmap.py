@@ -19,14 +19,14 @@ from wind import *
 
 class WindAnimation(MapLayer):
     
-    def __init__(self, **kwargs):
+    def __init__(self, angle, velocity, **kwargs):
         super(WindAnimation, self).__init__(**kwargs)
         self.winds = []
         Clock.schedule_interval(self.move_winds, 1/34.0)
-        Clock.schedule_interval(partial(self.add_random_wind, 30), 0.1)
+        Clock.schedule_interval(partial(self.add_random_wind, angle - 90, velocity), 0.1)
 
     
-    def add_random_wind(self, angle,*args):
+    def add_random_wind(self, angle, velocity, *args):
         random_part_of_screen = randint(0, 1)
         if angle > 0 and angle < 180:
             anchor_y = -100
@@ -45,7 +45,7 @@ class WindAnimation(MapLayer):
                          o_x = random()*self.width  * (random_part_of_screen * -1 + 1) + (random_part_of_screen * anchor_x),
                          o_y = random()*self.height * (random_part_of_screen) + (random_part_of_screen * -1 + 1) * anchor_y,
                          angle=angle,
-                         distance=30,
+                         distance=velocity*5,
                         )
         self.add_widget(newwind)
         self.winds.append(newwind)
@@ -61,7 +61,6 @@ class WindAnimation(MapLayer):
                 self.winds.remove(wind)
                 self.remove_widget(wind)
                 del wind
-            
 
 
 class MapViewWidget(MapView):
@@ -73,7 +72,7 @@ class MapViewWidget(MapView):
         self.lat = 59.9
         self.zoom = 10
         self.track = None
-        self.add_widget(WindAnimation())
+        self.add_widget(WindAnimation(angle=30, velocity=5))
 
     def load(self, path, filename):
         data = open(str(os.path.join(path, filename[0])))
@@ -97,7 +96,6 @@ class MapViewWidget(MapView):
             next_lon = float(self.track[i+1].attributes['lon'].value)
             next_lat = float(self.track[i+1].attributes['lat'].value)
 
-            self.bearing_a_boat(lon, lat, next_lon, next_lat)
             marker = MapMarker(source = "media/rotated.png", lon = lon, lat = lat)
             # next_point_time = datetime.strptime(times[i].firstChild.nodeValue[-9:-1], "%H:%M:%S") 
             # Для того, чтобы воспроизведение шло с реальной скоростью
