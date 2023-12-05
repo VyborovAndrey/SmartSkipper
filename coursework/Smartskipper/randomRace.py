@@ -6,7 +6,7 @@ from createGPX import create_gpx
 
 def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
     if is_forward:
-        step = 5000
+        step = 10000
         angle = random.randint(0, 1) * 90 + 45
         way = []
         way.append(startPoint.copy())
@@ -20,11 +20,15 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
                     angle = 135
                 blockTurn = True
             if not blockTurn:
-                if random.randint(0, 150) > 149:
+                if random.randint(0, 200) > 199:
                     if angle > 90:
                         angle -= 90 #+ random.randint(-5, 5)
                     else:
                         angle += 90 #+ random.randint(-5, 5)
+                if angle in range(35, 55):
+                    angle = random.randint(42, 48)
+                else:
+                    angle = random.randint(132, 138)
 
             startPoint[1] += math.cos(math.radians(angle))/step*boatspeed
             startPoint[0] += math.sin(math.radians(angle))/step*boatspeed
@@ -32,7 +36,7 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
             way.append(startPoint.copy())
 
         return way
-    step = 5000
+    step = 10000
     angle = random.randint(0, 1) * -90 - 45
     way = []
     way.append(startPoint.copy())
@@ -56,11 +60,15 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
                 blockTurn = True
             if not blockTurn:
 
-                if random.randint(0, 150) > 149:
+                if random.randint(0, 200) > 199:
                     if angle < -90:
                         angle += 90 #+ random.randint(-5, 5)
                     else:
                         angle -= 90 #+ random.randint(-5, 5)
+                if angle in range(-55, -35):
+                    angle = random.randint(-48, -42)
+                else:
+                    angle = random.randint(-138, -132)
 
             startPoint[1] += math.cos(math.radians(angle))/step*boatspeed
             startPoint[0] += math.sin(math.radians(angle))/step*boatspeed
@@ -69,11 +77,10 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
     return way
 
 
-def racegen(startPoint: list[int], boatCount: int):
+def racegen(startPoint: list[int], boatCount: int, dist: int):
     ways = [[]] * boatCount
     distbetweenboats = 0.0001
     startx = startPoint[1]
-    dist = 0.1
     if boatCount != 1:
         startx = startPoint[1] - boatCount * distbetweenboats / 2
 
@@ -88,7 +95,7 @@ def racegen(startPoint: list[int], boatCount: int):
     return ways
 
 
-race = racegen([59.870800772291446, 30.05910063608237], 5)
+race = racegen([59.870800772291446, 30.05910063608237], 5, 0.1)
 for i in range(len(race)):
     for j in range(len(race[i])):
         race[i][j].append(j)
