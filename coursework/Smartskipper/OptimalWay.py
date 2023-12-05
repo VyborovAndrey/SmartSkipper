@@ -1,9 +1,12 @@
 from math import sin, cos, atan2, radians, degrees, sqrt
-
+from copy import deepcopy
 from createGPX import create_gpx
 
 class WrongStepValue(Exception):
     pass
+
+def azimuth(degree):
+    return degree%360 
 
 def bearing(origin_lat, origin_lon, destination_lat, destination_lon):
     dLon = (destination_lon - origin_lon)
@@ -28,18 +31,18 @@ def find_distance(origin_lat, origin_lon, destination_lat, destination_lon):
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
     distance = R * c
     return distance
-    
+
 
 class point:
-    def __init__(self, latitude, longtitude, origin_lat, origin_lon):
+    def __init__(self, latitude, longtitude, origin_lat, origin_lon, previous_points = []):
         self.latitude = latitude
         self.longtitude = longtitude
         self.bearing = bearing(origin_lat, origin_lon, latitude, longtitude)
         self.origin_lat = origin_lat
         self.origin_lon = origin_lon
-        self.previous_points = []
-        self.wind_speed = 5
-        speed_diagram = [9.0005, 0.00006, 0.00007, 0.00008, 0.00009, 0.0001, 0.0002, 0.0003, 0.0004, 0.0005, 0.0006, 0.0007,
+        self.previous_points = previous_points
+        self.wind_speed = 20
+        right_part_of_diagram = [0.00005, 0.00006, 0.00007, 0.00008, 0.00009, 0.0001, 0.0002, 0.0003, 0.0004, 0.0005, 0.0006, 0.0007,
                             0.0008, 0.0009, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007, 0.008, 0.009, 0.011,
                             0.022, 0.055, 0.111, 0.222, 0.333, 0.544, 0.735, 0.738, 0.741, 0.744, 0.747, 0.750,
                             0.752, 0.755, 0.758, 0.761, 0.764, 0.770, 0.776, 0.782, 0.788, 0.794, 0.800, 0.805,
@@ -54,8 +57,8 @@ class point:
                             0.962, 0.956, 0.950, 0.944, 0.938, 0.932, 0.926, 0.918, 0.909, 0.900, 0.891, 0.882,
                             0.874, 0.865, 0.856, 0.847, 0.838, 0.826, 0.815, 0.803, 0.791, 0.779, 0.768, 0.756,
                             0.744, 0.732, 0.721, 0.649, 0.576, 0.504, 0.432, 0.360, 0.288, 0.216, 0.144, 0.072]
-        left_part_of_diagram = [x for x in speed_diagram[::-1]]
-        speed_diagram.extend(left_part_of_diagram)
+        left_part_of_diagram = right_part_of_diagram[::-1]
+        speed_diagram = right_part_of_diagram + left_part_of_diagram
         self.speed_diagram = speed_diagram
 
     def move_boats_from(self, step, dt):
@@ -66,7 +69,8 @@ class point:
             velocity = (self.speed_diagram[degree - 1]*self.wind_speed)/R
             allpoints.append(point(self.latitude + dt * velocity * cos(radians(degree)),
                                     self.longtitude + dt * velocity * sin(radians(degree)),
-                                    self.origin_lat, self.origin_lon))
+                                    self.origin_lat, self.origin_lon, self.previous_points))
+            
             # неправильные направления
             # print(point(self.latitude + dt * velocity * cos(radians(degree)),
             #                         self.longtitude + dt * velocity * sin(radians(degree)),
@@ -79,21 +83,28 @@ class isochrone:
         self.origin_lon = origin_lon
         self.destination_lat = destination_lat
         self.destination_lon = destination_lon
-        self.isochrone_points = [point(origin_lat, origin_lon, origin_lat, origin_lon)]*(360//step)
+        self.isochrone_points = []
+        start_point = point(origin_lat, origin_lon, origin_lat, origin_lon)
+        for _ in range(360//step):
+            self.isochrone_points.append(deepcopy(start_point))
         if 360 % step != 0:
             raise WrongStepValue("360 must be divisible by a step")
         self.step = step
 
     def find_optimal_way(self):
         dist_to_dest = min(self.isochrone_points, key=lambda point: find_distance(point.latitude, point.longtitude, self.destination_lat, self.destination_lon))
-        while find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon) > 1.05:
+        while find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon) > 0.05:
             # for point in self.isochrone_points:
             #     print(point.longtitude)
+
             # вывод расстояния от изохроны до точки назначения
-            # print(find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon))
+            print(find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon))
+
             self.time_tick()
             dist_to_dest = min(self.isochrone_points, key=lambda point: find_distance(point.latitude, point.longtitude, self.destination_lat, self.destination_lon))
-        return dist_to_dest.previous_points
+        return dist_to_dest
+        # для вывода всех путей изохроны
+        # return self.isochrone_points
 
 
     def time_tick(self):
@@ -109,17 +120,18 @@ class isochrone:
             #     print(i.bearing)
             if sector != []:
                 farthest_point = max(sector, key=lambda point: find_distance(point.latitude, point.longtitude, self.origin_lat, self.origin_lon))
-                farthest_point_index = sector.index(farthest_point)
-                current_isopoint = self.isochrone_points[(degree//self.step)-1]
-                current_isopoint.previous_points.append(current_isopoint)
-                previous_points = current_isopoint.previous_points
-                self.isochrone_points[(degree//self.step)-1] = sector[farthest_point_index]
-                self.isochrone_points[(degree//self.step)-1].previous_points = previous_points
+                farthest_point.previous_points.append(farthest_point)
+                self.isochrone_points[(degree//self.step)-1] = deepcopy(farthest_point)
 
 if __name__ == "__main__":
-    testiso = isochrone(59.86624481721071, 30.058030039090198, 59.97570601509731, 30.06934033231806, 10)
+    testiso = isochrone(59.90570601509731, 30.04034033231806, 59.94024481721071, 30.06934033231806, 10)
     way = testiso.find_optimal_way()
     track = []
-    for point in way:
+    for point in way.previous_points:
         track.append([point.latitude, point.longtitude])
     create_gpx(track, "Optimized_track")
+    # for i in range(len(ways)):
+    #     track = []
+    #     for point in way[i].previous_points:
+    #         track.append([point.latitude, point.longtitude])
+    #     create_gpx(track, "Isochrone_track{Number}".format(Number = i))
