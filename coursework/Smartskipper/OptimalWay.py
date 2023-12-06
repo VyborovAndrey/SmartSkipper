@@ -41,7 +41,7 @@ class point:
         self.origin_lat = origin_lat
         self.origin_lon = origin_lon
         self.previous_points = previous_points
-        self.wind_speed = 20
+        self.wind_speed = 50
         right_part_of_diagram = [0.00005, 0.00006, 0.00007, 0.00008, 0.00009, 0.0001, 0.0002, 0.0003, 0.0004, 0.0005, 0.0006, 0.0007,
                             0.0008, 0.0009, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007, 0.008, 0.009, 0.011,
                             0.022, 0.055, 0.111, 0.222, 0.333, 0.544, 0.735, 0.738, 0.741, 0.744, 0.747, 0.750,
@@ -93,7 +93,7 @@ class isochrone:
 
     def find_optimal_way(self):
         dist_to_dest = min(self.isochrone_points, key=lambda point: find_distance(point.latitude, point.longtitude, self.destination_lat, self.destination_lon))
-        while find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon) > 0.05:
+        while find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon) > 0.1:
             # for point in self.isochrone_points:
             #     print(point.longtitude)
 
@@ -102,7 +102,7 @@ class isochrone:
 
             self.time_tick()
             dist_to_dest = min(self.isochrone_points, key=lambda point: find_distance(point.latitude, point.longtitude, self.destination_lat, self.destination_lon))
-        return dist_to_dest
+        return dist_to_dest, self.isochrone_points
         # для вывода всех путей изохроны
         # return self.isochrone_points
 
@@ -123,15 +123,21 @@ class isochrone:
                 farthest_point.previous_points.append(farthest_point)
                 self.isochrone_points[(degree//self.step)-1] = deepcopy(farthest_point)
 
-if __name__ == "__main__":
-    testiso = isochrone(59.90570601509731, 30.04034033231806, 59.94024481721071, 30.06934033231806, 10)
-    way = testiso.find_optimal_way()
+
+
+def create_optimal_gpx(opti_track, isochrone_tracks, Isochrone = False):
     track = []
-    for point in way.previous_points:
+    for point in opti_track.previous_points:
         track.append([point.latitude, point.longtitude])
     create_gpx(track, "Optimized_track")
-    # for i in range(len(ways)):
-    #     track = []
-    #     for point in way[i].previous_points:
-    #         track.append([point.latitude, point.longtitude])
-    #     create_gpx(track, "Isochrone_track{Number}".format(Number = i))
+    if Isochrone is True:
+        for i in range(len(isochrone_tracks)):
+            track = []
+            for point in isochrone_tracks[i].previous_points:
+                track.append([point.latitude, point.longtitude])
+            create_gpx(track, "Isochrone_track{Number}".format(Number = i))
+
+if __name__ == "__main__":  
+    testiso = isochrone(59.870800772291446, 30.05910063608237, 59.92082079698614, 30.05910063608237, 15)
+    opti_track, isochrone_tracks = testiso.find_optimal_way()
+    create_optimal_gpx(opti_track, isochrone_tracks, True)

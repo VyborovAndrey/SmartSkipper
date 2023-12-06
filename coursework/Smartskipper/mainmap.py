@@ -1,6 +1,6 @@
 import os
-# os.environ["KIVY_NO_CONSOLELOG"] = "1"
 
+os.environ["KIVY_NO_CONSOLELOG"] = "1"
 from kivymd.app import MDApp
 from kivy.clock import Clock
 from kivy.garden.mapview import MapView, MapMarker, MapLayer
@@ -72,44 +72,49 @@ class MapViewWidget(MapView):
         self.lat = 59.9
         self.zoom = 10
         self.track = None
-        self.add_widget(WindAnimation(angle=30, velocity=5))
+        self.add_widget(WindAnimation(angle=0, velocity=5))
 
-    def load(self, path, filename):
-        data = open(str(os.path.join(path, filename[0])))
-        xmldoc = minidom.parse(data)
-        self.track = xmldoc.getElementsByTagName('trkpt')
-        self.n_track = len(self.track)
-        self.lon = self.track[0].attributes['lon'].value
-        self.lat = self.track[0].attributes['lat'].value
+    def load(self, path, filenames):
+        self.tracks: list['NodeList'] = []  
+        self.tracks_len: list[int] = []
+        for i, filename in enumerate(filenames):
+            data = open(filename)
+            xmldoc = minidom.parse(data)
+            self.tracks.append(xmldoc.getElementsByTagName('trkpt'))
+            self.tracks_len.append(len(self.tracks[i]))
+            self.lon = (self.tracks[i][0].attributes['lon'].value)
+            self.lat = (self.tracks[i][0].attributes['lat'].value)
         self.zoom = 15
 
         # times = xmldoc.getElementsByTagName('time')
         # start_point_time = datetime.strptime(times[1].firstChild.nodeValue[-9:-1], "%H:%M:%S")
 
     def on_play(self):
-        if self.track is None:
+        if self.tracks is None:
             return
-        old_marker = MapMarker(source = "media/rotated.png", lon = float(self.track[0].attributes['lon'].value), lat = float(self.track[0].attributes['lat'].value))
-        for i in range(self.n_track-1):
-            lon = float(self.track[i].attributes['lon'].value)
-            lat = float(self.track[i].attributes['lat'].value)
-            next_lon = float(self.track[i+1].attributes['lon'].value)
-            next_lat = float(self.track[i+1].attributes['lat'].value)
+        self.add_buoys()
+        for k, track in enumerate(self.tracks):
+            old_marker = MapMarker(source = "media/rotated.png", lon = float(track[0].attributes['lon'].value), lat = float(track[0].attributes['lat'].value))
+            for i in range(self.tracks_len[k]-1):
+                lon = float(track[i].attributes['lon'].value)
+                lat = float(track[i].attributes['lat'].value)
+                # next_lon = float(track[i+1].attributes['lon'].value)
+                # next_lat = float(track[i+1].attributes['lat'].value)
 
-            marker = MapMarker(source = "media/rotated.png", lon = lon, lat = lat)
-            # next_point_time = datetime.strptime(times[i].firstChild.nodeValue[-9:-1], "%H:%M:%S") 
-            # Для того, чтобы воспроизведение шло с реальной скоростью
-            # Clock.schedule_once(partial(map.update, marker, old_marker),
-            #                      (next_point_time - start_point_time).total_seconds())
-            Clock.schedule_once(partial(self.update, marker, old_marker),
-                                 i*0.25)
-            old_marker = marker
+                marker = MapMarker(source = "media/rotated.png", lon = lon, lat = lat)
+                # next_point_time = datetime.strptime(times[i].firstChild.nodeValue[-9:-1], "%H:%M:%S") 
+                # Для того, чтобы воспроизведение шло с реальной скоростью
+                # Clock.schedule_once(partial(map.update, marker, old_marker),
+                #                      (next_point_time - start_point_time).total_seconds())
+                Clock.schedule_once(partial(self.update, marker, old_marker),
+                                    i*0.25)
+                old_marker = marker
 
     def update(self, marker, old_marker, *args):    
         self.bearing_a_boat(old_marker.lon, old_marker.lat, marker.lon, marker.lat)
         marker.reload()
         self.add_marker(marker)
-        if old_marker != None:
+        if old_marker is not None:
             self.remove_marker(old_marker)
     
     def bearing_a_boat(self, lon, lat, next_lon, next_lat):
@@ -117,7 +122,7 @@ class MapViewWidget(MapView):
         y = math.sin(dLon) * math.cos(next_lat)
         x = math.cos(lat) * math.sin(next_lat) - math.sin(lat) * math.cos(next_lat) * math.cos(dLon)
         bearing = int(math.atan2(y, x) * 180 / 3.1415)
-        boat = cv2.imread("coursework\Smartskipper\media\lodka.png", cv2.IMREAD_UNCHANGED)
+        boat = cv2.imread("media/lodka.png", cv2.IMREAD_UNCHANGED)
         height, width = boat.shape[:2]
         image_center = (width / 2, height / 2)
         
@@ -134,7 +139,27 @@ class MapViewWidget(MapView):
         
         rotated_mat = cv2.warpAffine(boat, rotation_mat, (bound_w, bound_h))
 
-        cv2.imwrite("coursework/Smartskipper/media/rotated.png", rotated_mat)
+        cv2.imwrite("media/rotated.png", rotated_mat)
+
+    def det_upwind_buoy_pos(self):
+        upwind = []
+        for i in range(len(self.tracks[0])):
+            upwind.append(self.tracks[0][i].attributes['lat'].value)
+        return max(upwind)
+    
+    def det_start_buoy_pos(self):
+        start = []
+        for track in self.tracks:
+            start.append(track[0].attributes['lon'].value)
+        return float(max(start)) + 0.002, float(min(start)) - 0.002
+
+    def add_buoys(self):
+        upwind_buoy = MapMarker(source = "media/upwind_buoy.png", lon = float(self.tracks[0][0].attributes['lon'].value), lat = float(self.det_upwind_buoy_pos()))
+        left_start_buoy  = MapMarker(source = "media/start_buoy.png", lon = float(self.det_start_buoy_pos()[0]), lat = float(self.tracks[0][0].attributes['lat'].value))
+        right_start_buoy = MapMarker(source = "media/start_buoy.png", lon = float(self.det_start_buoy_pos()[1]), lat = float(self.tracks[0][0].attributes['lat'].value))
+        self.add_marker(left_start_buoy)
+        self.add_marker(right_start_buoy)
+        self.add_marker(upwind_buoy)
 
 class MainMapApp(MDApp):
     def on_start(self):
