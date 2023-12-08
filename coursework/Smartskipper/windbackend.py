@@ -12,12 +12,9 @@ piby180 = math.pi/180.0
 class KVector(EventDispatcher):
     o_x = NumericProperty(0)
     o_y = NumericProperty(0)
-#    to_x = NumericProperty(0)
-#    to_y = NumericProperty(0)
-#    to_pos = ReferenceListProperty(to_x,to_y)
     angle = NumericProperty(0)
     distance = NumericProperty(0)
-#                         )
+
     def get_to_x(self):
         return self.o_x + (math.cos(self.angle * piby180) * self.distance)
 
@@ -61,7 +58,6 @@ class Windd(Widget,KVector):
     main_color = ListProperty([1,1,1,0.7])
     outline_color = ListProperty([0,0,0,0.0])
     outline_width = NumericProperty(cm(0.0))
-    distortions = ListProperty([])
     
 
     def __init__(self, *args, **kwargs):
@@ -88,7 +84,6 @@ class Windd(Widget,KVector):
                   outline_color=self.update_outline_color,
                   main_color=self.update_color,
                   outline_width=self.update_outline_width,
-                  distortions=self.update_dims,
                   )
         self.update_dims()
         self.update_shaft_width()
@@ -114,10 +109,7 @@ class Windd(Widget,KVector):
                                         - math.cos(0 / 2.0 * piby180) * 0)
 
 
-        if not self.distortions:
-            self.shaft.points = [shaft_x1, shaft_y1, shaft_x2, shaft_y2]
-        else:
-            self.shaft.bezier = self.create_distortions(shaft_x1, shaft_y1, shaft_x2, shaft_y2)
+        self.shaft.points = [shaft_x1, shaft_y1, shaft_x2, shaft_y2]
 
         shaft_ol_x1, shaft_ol_y1 = move_point(shaft_x1, shaft_y1, self.angle -90, self.shaft_width /0.6)
         shaft_ol_x2, shaft_ol_y2 = move_point(shaft_x2, shaft_y2, self.angle -90, self.shaft_width /0.6)
@@ -125,9 +117,5 @@ class Windd(Widget,KVector):
         shaft_or_x1, shaft_or_y1 = move_point(shaft_x1, shaft_y1, self.angle +90, self.shaft_width /0.6)
         shaft_or_x2, shaft_or_y2 = move_point(shaft_x2, shaft_y2, self.angle +90, self.shaft_width /0.6)
 
-        if not self.distortions:
-            self.shaft_outline_left.points = [shaft_ol_x1, shaft_ol_y1, shaft_ol_x2, shaft_ol_y2]
-            self.shaft_outline_right.points = [shaft_or_x1, shaft_or_y1, shaft_or_x2, shaft_or_y2]
-        else:
-            self.shaft_outline_left.bezier = self.create_distortions(shaft_ol_x1, shaft_ol_y1, shaft_ol_x2, shaft_ol_y2)
-            self.shaft_outline_right.bezier = self.create_distortions(shaft_or_x1, shaft_or_y1, shaft_or_x2, shaft_or_y2)
+        self.shaft_outline_left.points = [shaft_ol_x1, shaft_ol_y1, shaft_ol_x2, shaft_ol_y2]
+        self.shaft_outline_right.points = [shaft_or_x1, shaft_or_y1, shaft_or_x2, shaft_or_y2]

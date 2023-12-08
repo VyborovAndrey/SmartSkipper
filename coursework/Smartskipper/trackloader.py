@@ -8,9 +8,9 @@ class TrackLoader(FloatLayout):
     def __init__(self, **kwargs):
         super(FloatLayout, self).__init__(**kwargs)
         self._popup = None
-    def load(self, path, filename):
+    def load(self, filename):
         map = App.get_running_app().root.ids.mapview
-        map.load(path, filename)
+        map.load(filename)
         self._popup.dismiss()
 
     def cancel(self):

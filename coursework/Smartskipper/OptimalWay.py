@@ -1,37 +1,10 @@
 from math import sin, cos, atan2, radians, degrees, sqrt
 from copy import deepcopy
 from createGPX import create_gpx
+from utility import bearing, find_distance
 
 class WrongStepValue(Exception):
     pass
-
-def azimuth(degree):
-    return degree%360 
-
-def bearing(origin_lat, origin_lon, destination_lat, destination_lon):
-    dLon = (destination_lon - origin_lon)
-    x = cos(radians(destination_lat)) * sin(radians(dLon))
-    y = cos(radians(origin_lat)) * sin(radians(destination_lat)) - sin(radians(origin_lat)) * cos(radians(destination_lat)) * cos(radians(dLon))
-    brng = atan2(x,y)
-    brng = degrees(brng)
-    if brng < 0:
-        brng = 360 + brng
-    return brng
-
-def find_distance(origin_lat, origin_lon, destination_lat, destination_lon):
-    #радиус земли в километрах
-    R = 6373.0
-    origin_lat = radians(origin_lat)
-    origin_lon = radians(origin_lon)
-    destination_lat = radians(destination_lat)
-    destination_lon = radians(destination_lon)
-    dlon = destination_lon - origin_lon
-    dlat = destination_lat - origin_lat
-    a = sin(dlat / 2)**2 + cos(origin_lat) * cos(destination_lat) * sin(dlon / 2)**2
-    c = 2 * atan2(sqrt(a), sqrt(1 - a))
-    distance = R * c
-    return distance
-
 
 class point:
     def __init__(self, latitude, longtitude, origin_lat, origin_lon, previous_points = []):
