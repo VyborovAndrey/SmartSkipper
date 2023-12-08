@@ -94,14 +94,14 @@ class MapViewWidget(MapView):
             return
         self.add_buoys()
         for k, track in enumerate(self.tracks):
-            old_marker = MapMarker(source = "media/rotated.png", lon = float(track[0].attributes['lon'].value), lat = float(track[0].attributes['lat'].value))
+            old_marker = MapMarker(source = "cache/rotated.png", lon = float(track[0].attributes['lon'].value), lat = float(track[0].attributes['lat'].value))
             for i in range(self.tracks_len[k]-1):
                 lon = float(track[i].attributes['lon'].value)
                 lat = float(track[i].attributes['lat'].value)
                 # next_lon = float(track[i+1].attributes['lon'].value)
                 # next_lat = float(track[i+1].attributes['lat'].value)
 
-                marker = MapMarker(source = "media/rotated.png", lon = lon, lat = lat)
+                marker = MapMarker(source = "cache/rotated.png", lon = lon, lat = lat)
                 # next_point_time = datetime.strptime(times[i].firstChild.nodeValue[-9:-1], "%H:%M:%S") 
                 # Для того, чтобы воспроизведение шло с реальной скоростью
                 # Clock.schedule_once(partial(map.update, marker, old_marker),
@@ -139,7 +139,7 @@ class MapViewWidget(MapView):
         
         rotated_mat = cv2.warpAffine(boat, rotation_mat, (bound_w, bound_h))
 
-        cv2.imwrite("media/rotated.png", rotated_mat)
+        cv2.imwrite("cache/rotated.png", rotated_mat)
 
     def det_upwind_buoy_pos(self):
         upwind = []

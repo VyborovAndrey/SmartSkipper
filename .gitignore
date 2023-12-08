@@ -1,7 +1,5 @@
-
-*.png
+cache/
 *.gpx
 *.csv
 *.pyc
-*.pyc
-coursework/Smartskipper/media/rotated.png
+output/
