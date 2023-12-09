@@ -9,6 +9,7 @@ from xml.dom import minidom
 import math
 import cv2
 import json
+from copy import copy, deepcopy
 
 from utility import bearing, get_rotation_matrix
 from windanimation import *
@@ -23,12 +24,16 @@ class MapViewWidget(MapView):
         self.lon = 30.2
         self.lat = 59.9
         self.zoom = 10
-        self.track = None
-        self.add_widget(WindAnimation(angle=0, velocity=5))
-
-    def load(self, filenames):
         self.tracks: list['NodeList'] = []  
         self.tracks_len: list[int] = []
+        self.add_widget(WindAnimation(angle=0, velocity=5))
+        
+        self.markers = [MapMarker(source = "cache/rotated.png", lon = 0, lat = 0)]*len(self.tracks)
+        self.old_markers = [MapMarker(source = "cache/rotated.png", lon = 0, lat = 0)]*len(self.tracks)
+        self.time = -1
+        self.event = None
+
+    def load(self, filenames):
         for i, filename in enumerate(filenames):
             data = open(filename)
             xmldoc = minidom.parse(data)
@@ -36,6 +41,8 @@ class MapViewWidget(MapView):
             self.tracks_len.append(len(self.tracks[i]))
             self.lon = (self.tracks[i][0].attributes['lon'].value)
             self.lat = (self.tracks[i][0].attributes['lat'].value)
+        self.markers = [MapMarker(source = "cache/rotated.png", lon = 0, lat = 0)]*len(self.tracks)
+        self.old_markers = [MapMarker(source = "cache/rotated.png", lon = 0, lat = 0)]*len(self.tracks)
         self.zoom = 15
         self.add_buoys()
 
@@ -45,29 +52,48 @@ class MapViewWidget(MapView):
     def on_play(self):
         if self.tracks is None:
             return
+        self.play()
+        # Для того, чтобы воспроизведение шло с реальной скоростью
+        # next_lon = float(track[i+1].attributes['lon'].value)
+        # next_lat = float(track[i+1].attributes['lat'].value)
+        # next_point_time = datetime.strptime(times[i].firstChild.nodeValue[-9:-1], "%H:%M:%S") 
+        # Clock.schedule_once(partial(map.update_boat_marker, marker, old_marker), (next_point_time - start_point_time).total_seconds())
+
+
+    def play(self, *args):
+        self.time += 1
         for k, track in enumerate(self.tracks):
-            old_marker = MapMarker(source = "cache/rotated.png", lon = float(track[0].attributes['lon'].value), lat = float(track[0].attributes['lat'].value))
-            for i in range(self.tracks_len[k]-1):
-                lon = float(track[i].attributes['lon'].value)
-                lat = float(track[i].attributes['lat'].value)
-                # next_lon = float(track[i+1].attributes['lon'].value)
-                # next_lat = float(track[i+1].attributes['lat'].value)
+            lon = float(track[self.time].attributes['lon'].value)
+            lat = float(track[self.time].attributes['lat'].value)
+            self.markers[k] = MapMarker(source = "cache/rotated.png", lon = lon, lat = lat)
+        Clock.schedule_once(partial(self.update_boat_marker, self.markers, self.old_markers), 0.25)
+        self.old_markers = copy(self.markers)
+        if self.time < self.tracks_len[0] - 1:
+            self.event = Clock.schedule_once(partial(self.play), 0.25)
+    
+    def on_stop(self):
+        if self.event is not None:
+            self.stop()
 
-                marker = MapMarker(source = "cache/rotated.png", lon = lon, lat = lat)
-                # next_point_time = datetime.strptime(times[i].firstChild.nodeValue[-9:-1], "%H:%M:%S") 
-                # Для того, чтобы воспроизведение шло с реальной скоростью
-                # Clock.schedule_once(partial(map.update, marker, old_marker),
-                #                      (next_point_time - start_point_time).total_seconds())
-                Clock.schedule_once(partial(self.update, marker, old_marker),
-                                    i*0.25)
-                old_marker = marker
+    def stop(self):
+        Clock.unschedule(self.event)
 
-    def update(self, marker, old_marker, *args):    
-        self.bearing_a_boat(old_marker.lon, old_marker.lat, marker.lon, marker.lat)
-        marker.reload()
-        self.add_marker(marker)
-        if old_marker is not None:
-            self.remove_marker(old_marker)
+    def go_back_in_time(self):
+        if self.time > 10:
+            self.time -= 10
+        else:
+            self.time = 0
+
+    def go_forward_in_time(self):
+        self.time += 10
+    
+    def update_boat_marker(self, markers, old_markers, *args):
+        for marker, old_marker in zip(markers, old_markers):
+            self.bearing_a_boat(old_marker.lon, old_marker.lat, marker.lon, marker.lat)
+            marker.reload()
+            self.add_marker(marker)
+            if old_marker is not None:
+                self.remove_marker(old_marker)
     
     def bearing_a_boat(self, lon, lat, next_lon, next_lat):
         brng = bearing(lon, lat, next_lon, next_lat) - 90

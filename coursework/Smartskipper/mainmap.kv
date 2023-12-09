@@ -1,9 +1,13 @@
 #:include trackloader.kv
 
-BoxLayout:
+MDBoxLayout:
     orientation: "vertical"
     MDTopAppBar:
         id: topbar
-        left_action_items: [["play", lambda x: mapview.on_play()], ["file-marker", lambda x: app.load_dialog.show_load()], ["weather-windy", lambda x: None]]
+        left_action_items: [["file-marker", lambda x: app.load_dialog.show_load()], ["weather-windy", lambda x: None]]
     MapViewWidget:
         id: mapview
+    MDTopAppBar:
+        id: bottombar
+        left_action_items: [["arrow-left-bold", lambda x: mapview.go_back_in_time()], ["stop", lambda x: mapview.on_stop()], ["play", lambda x: mapview.on_play()], ["arrow-right-bold", lambda x: mapview.go_forward_in_time()]]
+
