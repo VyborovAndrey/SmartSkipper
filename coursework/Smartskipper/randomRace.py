@@ -1,5 +1,6 @@
 import math
 import random
+from datetime import timedelta
 #import turtle
 
 from createGPX import create_gpx
@@ -34,7 +35,6 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
             startPoint[0] += math.sin(math.radians(angle))/step*boatspeed
             #turtle.goto(startPoint[1] * 50, startPoint[0] * 50)
             way.append(startPoint.copy())
-
         return way
     step = 10000
     angle = random.randint(0, 1) * -90 - 45
@@ -74,6 +74,7 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
             startPoint[0] += math.sin(math.radians(angle))/step*boatspeed
             #turtle.goto(startPoint[1] * 50, startPoint[0] * 50)
             way.append(startPoint.copy())
+
     return way
 
 
@@ -95,8 +96,8 @@ def racegen(startPoint: list[int], boatCount: int, dist: int):
     return ways
 
 
-race = racegen([59.870800772291446, 30.05910063608237], 4, 0.05)
+race = racegen([59.870800772291446, 30.05910063608237], 5, 0.05)
 for i in range(len(race)):
     for j in range(len(race[i])):
-        race[i][j].append(j)
+        race[i][j].append(timedelta(seconds=j))
     create_gpx(race[i], f"boat{i+1}")
