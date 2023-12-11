@@ -9,18 +9,25 @@ class WindAnimation(MapLayer):
     def __init__(self, angle, velocity, **kwargs):
         super(WindAnimation, self).__init__(**kwargs)
         self.winds = []
+        self.angle = angle - 90
+        self.velocity = velocity
         Clock.schedule_interval(self.move_winds, 1/34.0)
-        Clock.schedule_interval(partial(self.add_random_wind, angle - 90, velocity), 0.1)
+        Clock.schedule_interval(partial(self.add_random_wind), 0.1)
 
-    
-    def add_random_wind(self, angle, velocity, *args):
+    def set_angle(self, angle):
+        self.angle = angle - 90
+
+    def set_velocity(self, velocity):
+        self.angle = velocity
+
+    def add_random_wind(self, *args):
         random_part_of_screen = randint(0, 1)
-        if angle > 0 and angle < 180:
+        if self.angle > 0 and self.angle < 180:
             anchor_y = -100
         else:
             anchor_y = self.height + 100
 
-        if angle > 90 and angle < 270:
+        if self.angle > 90 and self.angle < 270:
             anchor_x = self.width + 100
         else:
             anchor_x = -100
@@ -31,8 +38,8 @@ class WindAnimation(MapLayer):
                          main_color=[255,255,255,0.6],
                          o_x = random()*self.width  * (random_part_of_screen * -1 + 1) + (random_part_of_screen * anchor_x),
                          o_y = random()*self.height * (random_part_of_screen) + (random_part_of_screen * -1 + 1) * anchor_y,
-                         angle=angle,
-                         distance=velocity*5,
+                         angle=self.angle,
+                         distance=self.velocity*5,
                         )
         self.add_widget(newwind)
         self.winds.append(newwind)
