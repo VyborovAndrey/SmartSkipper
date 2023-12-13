@@ -1,12 +1,38 @@
 #:include trackloader.kv
+#:include windloader.kv
+#:include infobox.kv
 
 MDBoxLayout:
     orientation: "vertical"
     MDTopAppBar:
         id: topbar
-        left_action_items: [["file-marker", lambda x: app.load_dialog.show_load()], ["weather-windy", lambda x: None]]
-    MapViewWidget:
-        id: mapview
+        left_action_items: [["file-marker", lambda x: app.loadtrack_dialog.show_load()], ["weather-windy", lambda x: app.loadwind_dialog.show_load()]]
+    MDBoxLayout:
+        id: central_screen
+        orientation: "horizontal"
+        MapViewWidget:
+            id: mapview
+            size_hint_x: 2.5
+            parent: self.parent
+        MDBoxLayout:
+            id: info
+            orientation: "vertical"
+            InfoBox:
+                id: course
+                property_name: "Course"
+                property_value: ""
+            InfoBox:
+                id: attw
+                property_name: "Angle to the wind"
+                property_value: ""
+            InfoBox:
+                id: sog
+                property_name: "Speed over ground"
+                property_value: ""
+            InfoBox:
+                id: vmg
+                property_name: "Velocity made good"
+                property_value: ""
     MDTopAppBar:
         id: bottombar
         left_action_items: [["arrow-left-bold", lambda x: mapview.go_back_in_time()], ["stop", lambda x: mapview.on_stop()], ["play", lambda x: mapview.on_play()], ["arrow-right-bold", lambda x: mapview.go_forward_in_time()]]

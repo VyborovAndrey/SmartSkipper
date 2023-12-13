@@ -53,11 +53,9 @@ def move_point(x,y,angle,distance):
 
 # ------------ Wind -------------- #
 
-class Windd(Widget,KVector):
+class Wind(Widget,KVector):
     shaft_width = NumericProperty(cm(0.05))
     main_color = ListProperty([1,1,1,0.7])
-    outline_color = ListProperty([0,0,0,0.0])
-    outline_width = NumericProperty(cm(0.0))
     
 
     def __init__(self, *args, **kwargs):
@@ -67,13 +65,6 @@ class Windd(Widget,KVector):
         with self.canvas:
             self.icolor = Color(rgba=self.main_color)
             self.shaft = Line(width=self.shaft_width)
-
-            self.ocolor = Color(rgba=self.outline_color)
-            self.shaft_outline_left = Line(width=self.outline_width)
-            self.shaft_outline_right = Line(width=self.outline_width)
-
-            
-
         
         self.bind(
                   o_x=self.update_dims,
@@ -81,9 +72,7 @@ class Windd(Widget,KVector):
                   to_x=self.update_dims,
                   to_y=self.update_dims,
                   shaft_width=self.update_shaft_width,
-                  outline_color=self.update_outline_color,
                   main_color=self.update_color,
-                  outline_width=self.update_outline_width,
                   )
         self.update_dims()
         self.update_shaft_width()
@@ -92,30 +81,11 @@ class Windd(Widget,KVector):
     def update_shaft_width(self,*args):
         self.shaft.width = self.shaft_width
 
-    def update_outline_width(self, *args):
-        self.shaft_outline_right.width = self.outline_width
-        self.shaft_outline_left.width = self.outline_width
-    
-    def update_outline_color(self, *args):
-        self.ocolor.rgba = self.outline_color
-
     def update_color(self, *args):
         self.icolor.rgba = self.main_color
-
 
     def update_dims(self, *args):
         shaft_x1, shaft_y1 = move_point(self.o_x, self.o_y, self.angle, 0 / math.sqrt(2))
         shaft_x2, shaft_y2 = move_point(self.to_x, self.to_y, self.angle,
                                         - math.cos(0 / 2.0 * piby180) * 0)
-
-
         self.shaft.points = [shaft_x1, shaft_y1, shaft_x2, shaft_y2]
-
-        shaft_ol_x1, shaft_ol_y1 = move_point(shaft_x1, shaft_y1, self.angle -90, self.shaft_width /0.6)
-        shaft_ol_x2, shaft_ol_y2 = move_point(shaft_x2, shaft_y2, self.angle -90, self.shaft_width /0.6)
-
-        shaft_or_x1, shaft_or_y1 = move_point(shaft_x1, shaft_y1, self.angle +90, self.shaft_width /0.6)
-        shaft_or_x2, shaft_or_y2 = move_point(shaft_x2, shaft_y2, self.angle +90, self.shaft_width /0.6)
-
-        self.shaft_outline_left.points = [shaft_ol_x1, shaft_ol_y1, shaft_ol_x2, shaft_ol_y2]
-        self.shaft_outline_right.points = [shaft_or_x1, shaft_or_y1, shaft_or_x2, shaft_or_y2]

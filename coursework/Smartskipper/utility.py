@@ -4,7 +4,8 @@ import cv2
 def azimuth(degree):
     return degree%360 
 
-def bearing(origin_lat, origin_lon, destination_lat, destination_lon):
+
+def bearingg(origin_lat, origin_lon, destination_lat, destination_lon):
     dLon = (destination_lon - origin_lon)
     x = cos(radians(destination_lat)) * sin(radians(dLon))
     y = cos(radians(origin_lat)) * sin(radians(destination_lat)) - sin(radians(origin_lat)) * cos(radians(destination_lat)) * cos(radians(dLon))
@@ -12,6 +13,12 @@ def bearing(origin_lat, origin_lon, destination_lat, destination_lon):
     brng = degrees(brng)
     if brng < 0:
         brng = 360 + brng
+    return brng
+
+def bearing(origin_lat, origin_lon, destination_lat, destination_lon):
+    rad = atan2(destination_lat-origin_lat, destination_lon-origin_lon)
+    angle = degrees(rad)
+    brng = azimuth(angle)
     return brng
 
 def find_distance(origin_lat, origin_lon, destination_lat, destination_lon):

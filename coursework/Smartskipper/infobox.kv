@@ -1,0 +1,46 @@
+<InfoBox@MDBoxLayout>:
+    orientation: "vertical"
+    md_bg_color: 0, 0.1, 0.6, 0.1
+    line_color: 0, 0, 0, 1
+    color_1: 0, 0, 0, 0.1
+    color_2: 0, 0, 0, 0.1
+    color_3: 0, 0, 0, 0.1
+    color_4: 0, 0, 0, 0.1
+    color_5: 0, 0, 0, 0.1
+    color_6: 0, 0, 0, 0.1
+    color_7: 0, 0, 0, 0.1
+    color_8: 0, 0, 0, 0.1
+    color_9: 0, 0, 0, 0.1
+    color_10: 0, 0, 0, 0.1
+    color_11: 0, 0, 0, 0.1
+    property_name: ""
+    property_value: ""
+    MDLabel:
+        text: " " + self.parent.property_name
+    MDBoxLayout
+        orientation: "horizontal"
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_1
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_2
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_3
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_4
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_5
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_6
+            line_color: 1, 0, 0, 0.5
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_7
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_8
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_9
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_10
+        MDBoxLayout:
+            md_bg_color: self.parent.parent.color_11
+    MDLabel:
+        text: " " + self.parent.property_value

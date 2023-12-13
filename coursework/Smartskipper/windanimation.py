@@ -1,24 +1,24 @@
 from random import random, randint
-from windbackend import *
+from windbackend import Wind, move_point
 from kivy.clock import Clock
 from kivy.garden.mapview import MapLayer
 from functools import partial
+from utility import azimuth
 
 class WindAnimation(MapLayer):
-    
     def __init__(self, angle, velocity, **kwargs):
         super(WindAnimation, self).__init__(**kwargs)
         self.winds = []
-        self.angle = angle - 90
+        self.angle = azimuth(-angle-90)
         self.velocity = velocity
         Clock.schedule_interval(self.move_winds, 1/34.0)
         Clock.schedule_interval(partial(self.add_random_wind), 0.1)
 
     def set_angle(self, angle):
-        self.angle = angle - 90
+        self.angle = azimuth(-angle-90)
 
     def set_velocity(self, velocity):
-        self.angle = velocity
+        self.velocity = velocity
 
     def add_random_wind(self, *args):
         random_part_of_screen = randint(0, 1)
@@ -34,7 +34,7 @@ class WindAnimation(MapLayer):
 
             
         random_part_of_screen = randint(0, 1)
-        newwind = Windd(
+        newwind = Wind(
                          main_color=[255,255,255,0.6],
                          o_x = random()*self.width  * (random_part_of_screen * -1 + 1) + (random_part_of_screen * anchor_x),
                          o_y = random()*self.height * (random_part_of_screen) + (random_part_of_screen * -1 + 1) * anchor_y,
@@ -50,7 +50,6 @@ class WindAnimation(MapLayer):
         for wind in self.winds:
             wind.o_x, wind.o_y = move_point(wind.o_x,wind.o_y,wind.angle,6)
             wind.main_color=[x for x in map(lambda y:y * 0.999, wind.main_color)]
-            wind.outline_color=[x for x in map(lambda y:y * 0.999, wind.outline_color)]
             if wind.main_color[3] < 0.45:
                 self.winds.remove(wind)
                 self.remove_widget(wind)

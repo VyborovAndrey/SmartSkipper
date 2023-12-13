@@ -12,7 +12,8 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
         way = []
         way.append(startPoint.copy())
         blockTurn = False
-        boatspeed = random.randint(7, 14) / 10
+        boatspeed = random.randint(3, 5) / 10
+        is_novice = random.choice([True, False])
         while startPoint[0] < endPoint[0]:
             if -1/step < (abs(endPoint[0] - startPoint[0]) - abs(endPoint[1] - startPoint[1])) < 1/step:
                 if endPoint[1] > startPoint[1]:
@@ -27,9 +28,15 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
                     else:
                         angle += 90 #+ random.randint(-5, 5)
                 if angle in range(35, 55):
-                    angle = random.randint(42, 48)
+                    if is_novice:
+                        angle = random.randint(42, 48)
+                    else:
+                        angle = random.randint(44, 46)
                 else:
-                    angle = random.randint(132, 138)
+                    if is_novice:
+                        angle = random.randint(132, 138)
+                    else:
+                        angle = random.randint(134, 136)
 
             startPoint[1] += math.cos(math.radians(angle))/step*boatspeed
             startPoint[0] += math.sin(math.radians(angle))/step*boatspeed
@@ -41,7 +48,7 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
     way = []
     way.append(startPoint.copy())
     blockTurn = False
-    boatspeed = random.randint(6, 13) / 10
+    boatspeed = random.randint(7, 10) / 10
     if random.randint(0, 1):
         going_forde = True
     else:

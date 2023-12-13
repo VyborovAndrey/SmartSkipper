@@ -4,13 +4,13 @@ from kivy.uix.floatlayout import FloatLayout
 from kivy.app import App
 
 
-class TrackLoader(FloatLayout):
+class WindLoader(FloatLayout):
     def __init__(self, **kwargs):
         super(FloatLayout, self).__init__(**kwargs)
         self._popup = None
     def load(self, filename):
         map = App.get_running_app().root.ids.mapview
-        map.loadtrack(filename)
+        map.loadwind(filename)
         self._popup.dismiss()
 
     def cancel(self):
@@ -18,6 +18,6 @@ class TrackLoader(FloatLayout):
 
     def show_load(self):
         if self._popup == None:
-            self._popup = Popup(title="Choose gpx file of your sailing adventure", content=self,
+            self._popup = Popup(title="Choose json file with wind data", content=self,
                                 size_hint=(0.9, 0.9))
         self._popup.open()
