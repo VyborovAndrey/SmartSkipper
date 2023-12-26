@@ -1,4 +1,3 @@
-import os
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
 from kivy.app import App

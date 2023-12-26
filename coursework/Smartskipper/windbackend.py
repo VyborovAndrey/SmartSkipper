@@ -1,8 +1,8 @@
-from kivy.properties import *
+from kivy.properties import NumericProperty, AliasProperty, ListProperty
 from kivy.event import EventDispatcher
 from kivy.uix.widget import Widget
-from kivy.metrics import *
-from kivy.graphics import *
+from kivy.metrics import cm
+from kivy.graphics import Color, Line
 import math
 
 

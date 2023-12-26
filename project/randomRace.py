@@ -1,7 +1,6 @@
 import math
 import random
 from datetime import timedelta
-#import turtle
 
 from createGPX import create_gpx
 
@@ -40,7 +39,6 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
 
             startPoint[1] += math.cos(math.radians(angle))/step*boatspeed
             startPoint[0] += math.sin(math.radians(angle))/step*boatspeed
-            #turtle.goto(startPoint[1] * 50, startPoint[0] * 50)
             way.append(startPoint.copy())
         return way
     step = 10000
@@ -56,7 +54,6 @@ def waygen(startPoint: list[int], endPoint: list[int], is_forward: bool):
     while startPoint[0] > endPoint[0]:
         if going_forde:
             startPoint[0] -= 1/step*boatspeed
-            #turtle.goto(startPoint[1] * 50, startPoint[0] * 50)
             way.append(startPoint.copy())
         else:
             if -1/step < (abs(endPoint[0] - startPoint[0]) - abs(endPoint[1] - startPoint[1])) < 1/step:

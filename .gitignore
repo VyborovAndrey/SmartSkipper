@@ -1,4 +1,6 @@
 cache/
 *.gpx
-*.csv
 *.pyc
+coursework/SmartSkipper/output
+project/weatherdata
+project/Output
