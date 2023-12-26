@@ -1,49 +1,32 @@
-<p style="display:inline">
+<p style="display:inline-block">
   <a href="https://www.python.org/downloads/release/python-3110/">
     <img src="https://img.shields.io/badge/Python-3.11-blue">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://github.com/kivy/kivy">
     <img src="https://img.shields.io/badge/Kivy-2.2.1-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://pypi.org/project/geovectorslib/">
     <img src="https://img.shields.io/badge/geovectorslib-1.4-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://github.com/numpy/numpy">
     <img src="https://img.shields.io/badge/numpy-1.26.2-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://github.com/scipy/scipy">
     <img src="https://img.shields.io/badge/SciPy-1.11.4-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://github.com/opencv/opencv-python">
     <img src="https://img.shields.io/badge/opencv--python-4.8.1.78-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://github.com/nidhaloff/gpx-converter">
     <img src="https://img.shields.io/badge/gpx--converter-2.1.0-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://github.com/ecmwf/eccodes">
     <img src="https://img.shields.io/badge/eccodes-1.6.1-green">
   </a>
-</p>
-<p style="display:inline">
   <a href="https://pypi.org/project/cfgrib/">
     <img src="https://img.shields.io/badge/cfgrib-0.9.10.4-green">
-    
   </a>
-</p >
+</p>
 
 # SmartSkipper
 В папке project находится проект “Генерация GPX файлов парусных гонок и алгоритм поиска самого быстрого маршрута парусного судна”
