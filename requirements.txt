@@ -1,0 +1,11 @@
+kivy
+kivymd
+kivy-Garden
+kivy-garden.mapview
+geovectorslib
+numpy
+SciPy
+opencv-python
+gpx-converter
+eccodes
+cfgrib
