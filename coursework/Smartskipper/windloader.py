@@ -16,7 +16,7 @@ class WindLoader(FloatLayout):
         self._popup.dismiss()
 
     def show_load(self):
-        if self._popup == None:
+        if self._popup is None:
             self._popup = Popup(title="Choose json file with wind data", content=self,
                                 size_hint=(0.9, 0.9))
         self._popup.open()

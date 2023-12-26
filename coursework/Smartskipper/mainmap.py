@@ -3,7 +3,7 @@ import os
 
 from kivymd.app import MDApp
 from kivy.clock import Clock
-from kivy.garden.mapview import MapView
+from kivy_garden.mapview import MapView
 from functools import partial
 from xml.dom import minidom 
 import cv2

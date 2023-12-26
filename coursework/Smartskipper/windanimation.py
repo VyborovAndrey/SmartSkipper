@@ -1,7 +1,7 @@
 from random import random, randint
 from windbackend import Wind, move_point
 from kivy.clock import Clock
-from kivy.garden.mapview import MapLayer
+from kivy_garden.mapview import MapLayer
 from functools import partial
 from utility import azimuth
 
