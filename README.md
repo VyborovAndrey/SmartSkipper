@@ -1,7 +1,3 @@
-<style> a{
-  text-decoration: none !important;
-  }
-</style>
 <p style="display:inline-block">
   <a href="https://www.python.org/downloads/release/python-3110/">
     <img src="https://img.shields.io/badge/Python-3.11-blue">
