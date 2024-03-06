@@ -4,10 +4,14 @@ from kivy.clock import Clock
 from kivy_garden.mapview import MapLayer
 from functools import partial
 from utility import azimuth
+from kivy.core.window import Window
 
 class WindAnimation(MapLayer):
     def __init__(self, angle, velocity, **kwargs):
         super(WindAnimation, self).__init__(**kwargs)
+        width, height = Window.size
+        self.height = height
+        self.width = width
         self.winds = []
         self.angle = azimuth(-angle-90)
         self.velocity = velocity

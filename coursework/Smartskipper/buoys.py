@@ -31,6 +31,6 @@ class Buoys:
         return float(max(start)) + 0.002, float(min(start)) - 0.002
 
     def make_buoys(self):
-        self.upwind_buoy = MapMarker(source = "media/upwind_buoy.png", lon = float(self.tracks[0][0].attributes['lon'].value), lat = float(self.det_upwind_buoy_pos()))
-        self.left_start_buoy  = MapMarker(source = "media/start_buoy.png", lon = float(self.det_start_buoy_pos()[0]), lat = float(self.tracks[0][0].attributes['lat'].value))
-        self.right_start_buoy = MapMarker(source = "media/start_buoy.png", lon = float(self.det_start_buoy_pos()[1]), lat = float(self.tracks[0][0].attributes['lat'].value))
+        self.upwind_buoy = MapMarker(source = "./media/upwind_buoy.png", lon = float(self.tracks[0][0].attributes['lon'].value), lat = float(self.det_upwind_buoy_pos()))
+        self.left_start_buoy  = MapMarker(source = "./media/start_buoy.png", lon = float(self.det_start_buoy_pos()[0]), lat = float(self.tracks[0][0].attributes['lat'].value))
+        self.right_start_buoy = MapMarker(source = "./media/start_buoy.png", lon = float(self.det_start_buoy_pos()[1]), lat = float(self.tracks[0][0].attributes['lat'].value))

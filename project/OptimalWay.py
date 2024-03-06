@@ -22,13 +22,13 @@ class point:
         self.origin_lat = origin_lat
         self.origin_lon = origin_lon
         self.previous_points = previous_points
-        self.speed_diagram = boat_speed_function
+
 
     def move_boats_from(self, step, wind, boat, time, dt):
         new_lat = np.repeat(self.latitude, 360//step)
         new_lon = np.repeat(self.longtitude, 360//step)
         brngs = np.linspace(0, 360, 360//step)
-        wind = wind_function(wind, [(self.latitude, self.longtitude)], time)
+        wind = wind_function(wind, [(self.latitude, self.longtitude)], time*10)
         bs = vectorized_boat_speed_f(boat, brngs - wind) * dt
         geod.direct(new_lat, new_lon, brngs, bs)
         new_coords = geod.direct(new_lat, new_lon, brngs, bs)
@@ -62,7 +62,7 @@ class isochrone:
 
     def find_optimal_way(self):
         dist_to_dest = min(self.isochrone_points, key=lambda point: find_distance(point.latitude, point.longtitude, self.destination_lat, self.destination_lon))
-        while find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon) > 100.0:
+        while find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon) > 1.0:
 
             # вывод расстояния от изохроны до точки назначения
             print(find_distance(dist_to_dest.latitude, dist_to_dest.longtitude, self.destination_lat, self.destination_lon))
@@ -97,6 +97,6 @@ def create_optimal_gpx(opti_track, isochrone_tracks, Isochrone = False):
 
 
 if __name__ == "__main__":  
-    testiso = isochrone(38.714854284103446, 0.07987545805368604, 37.8738782925896, 2.390662229980817, 8)
+    testiso = isochrone(59.95222983291799, 30.184248506383703, 59.9927421613013, 29.70604781109711, 4)
     opti_track, isochrone_tracks = testiso.find_optimal_way()
     create_optimal_gpx(opti_track, isochrone_tracks, True)

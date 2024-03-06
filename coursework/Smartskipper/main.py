@@ -118,9 +118,9 @@ class MapViewWidget(MapView):
     
     def bearing_a_boat(self, lon, lat, next_lon, next_lat):
         brng = -1 * bearing(lon, lat, next_lon, next_lat)
-        boat = cv2.imread("media/lodka.png", cv2.IMREAD_UNCHANGED)
+        boat = cv2.imread("./media/lodka.png", cv2.IMREAD_UNCHANGED)
         rotated_mat = get_rotation_matrix(boat, brng)
-        cv2.imwrite("cache/rotated.png", rotated_mat)
+        cv2.imwrite("./cache/rotated.png", rotated_mat)
 #-------Информация------#
     def select_boat(self, boat, **kwargs):
         self.selected_boat = boat.number
@@ -174,12 +174,18 @@ class MapViewWidget(MapView):
             self.wind_widget.set_angle(self.wind_dir)
             self.wind_widget.set_velocity(self.wind_speed)
 
-class MainMapApp(MDApp):
+class MainApp(MDApp):
     def on_start(self):
         self.loadtrack_dialog = TrackLoader()
         self.loadwind_dialog = WindLoader()
+    
+    def on_pause(self):
+        return True
+
+    def on_resume(self):
+        pass
 
 
 
 if __name__ == "__main__":
-    MainMapApp().run()
+    MainApp().run()
